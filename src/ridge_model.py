@@ -1,116 +1,113 @@
-"""
-Ridge Regression model handler for the election prediction project.
-
-The RidgeModel class encapsulates:
-- Cross-validation for alpha hyperparameter selection.
-- Final model training.
-- Saving and loading trained models.
-- Generating predictions.
-"""
 import os
 import pandas as pd
 import numpy as np
 import joblib
-import time
+import optuna
 from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error
-from typing import List, Union
+from data_handling import DataHandler # For type hinting
 
-from .constants import MODELS_DIR, RESULTS_DIR, PREDS_DIR # Relative import
-from .data_handling import DataHandler # For type hinting
+def objective_ridge(trial: optuna.trial.Trial,
+                    dh: DataHandler,
+                    use_pca: bool = False
+                    ):
+    """Objective function for Ridge hyperparameter optimization using Optuna. Uses weighted MSE as the loss function."""
+    params = {}
+    params['alpha'] = trial.suggest_float('alpha', 1e-6, 10.0, log=True)
+    if use_pca:
+        params['n_components'] = trial.suggest_int('n_components', 10, (dh.n_features // 10)*10, step=10)
+        cv_data = dh.get_ridge_data('cv', params['n_components'])
+    else:
+        cv_data = dh.get_ridge_data('cv')
+    fold_val_losses = []
 
-# --- RidgeModel Class ---
+    for (X_train, y_train, wts_train), (X_val, y_val, wts_val) in cv_data:
+        model_fold = Ridge(alpha=params['alpha'])
+        model_fold.fit(X_train, y_train, sample_weight=wts_train.ravel())
+        y_pred = model_fold.predict(X_val)
+        val_loss = mean_squared_error(y_val, y_pred, sample_weight=wts_val.ravel())
+        fold_val_losses.append(val_loss)
+    return np.mean(fold_val_losses)
+
+# --- Main Ridge handler class ---
 
 class RidgeModel:
     """Handles Ridge Regression CV, training, loading, and evaluation."""
 
-    def __init__(self, model_name: str = 'ridge'):
-        """Initializes the RidgeModel handler."""
-        self.model_name: str = model_name
-        self.model: Union[Ridge, None] = None
-        self.best_alpha: Union[float, None] = None
-        # Store results path for convenience
-        self.results_save_path = os.path.join(RESULTS_DIR, f"{self.model_name}_cv_results.csv")
-        self.model_save_path = os.path.join(MODELS_DIR, f"{self.model_name}_final_model.joblib")
+    def __init__(self, dh: DataHandler, model_name: str = 'ridge'):
+        """Initializes the RidgeModel handler and pre-computes all paths."""
+        self.dh = dh
+        self.model_name = model_name
+        self.best_params = None
+        self.model = None
 
-    def cross_validate(self,
-                       dh: DataHandler,
-                       param_grid: List[float],
-                       save: bool = True,
-                       ):
-        """Performs CV for Ridge, stores the best alpha, saves results if asked for. Uses weighted MSE as train/val loss function."""
-        start_time = time.time()
-        print(f"\n--- Starting Cross-Validation for {self.model_name.upper()} ---")
-        results_list = []
-        best_val_loss = float('inf')
-        best_alpha = None
+        # precompute file paths
+        self.study_path = os.path.join(dh.optuna_dir, f"{model_name}_study.pkl")
+        self.model_path = os.path.join(dh.models_dir, f"{model_name}_model.pkl")
+        self.pred_path  = os.path.join(dh.preds_dir,  f"{model_name}_preds.csv")
 
-        cv_data = dh.get_ridge_data('cv')
+        print(f'RidgeModel initialized with model name: {self.model_name}')
+        print(f"Optuna study will be stored in  : {self.study_path}")
+        print(f"Trained model will be stored in : {self.model_path}")
+        print(f"Final preds will be stored in   : {self.pred_path}")
 
-        for alpha in param_grid:
-            print("--------------------------------------")
-            fold_val_losses = []
-            for (X_train, y_train, wts_train), (X_val, y_val, wts_val) in cv_data:
-                model_fold = Ridge(alpha=alpha)
-                model_fold.fit(X_train, y_train, sample_weight=wts_train.ravel())
-                y_pred = model_fold.predict(X_val)
-                val_loss = mean_squared_error(y_val, y_pred, sample_weight=wts_val)
-                fold_val_losses.append(val_loss)
+    def run_optuna_study(self,
+                        n_trials: int,
+                        use_pca: bool = False):
+        """Runs an Optuna study for Ridge hyperparameter tuning. Saves the study object."""
+        study = optuna.create_study(direction='minimize',
+                                    study_name=f"{self.model_name}_study")
+        study.optimize(lambda t: objective_ridge(t, self.dh, use_pca),
+                       n_trials=n_trials)
 
-            mean_val_loss = np.mean(fold_val_losses)
-            print(f"Alpha: {alpha:rjust(5)} | Val Loss: {mean_val_loss:.6f}")
-            results_list.append({'alpha': alpha, 'Val loss': mean_val_loss})
+        self.best_params = study.best_params
+        print(f"Best alpha: {self.best_params['alpha']}")
+        if use_pca:
+            print(f"Best n_components: {self.best_params['n_components']}")
 
-            if mean_val_loss < best_val_loss:
-                best_val_loss = mean_val_loss
-                best_alpha = alpha 
+        joblib.dump(study, self.study_path)
+        print(f"Optuna study saved to: {self.study_path}")
 
-        results_df = pd.DataFrame(results_list)
-        results_df = results_df.sort_values(by='Val loss', ascending=True).reset_index(drop=True)
+    def load_optuna_study(self):
+        """Loads an Optuna study."""
+        if not os.path.exists(self.study_path):
+            raise FileNotFoundError(f"No study at {self.study_path}. Run run_optuna_study first.")
+        return joblib.load(self.study_path)
 
-        if save:
-            results_df.to_csv(self.results_save_path, index=False)
-            print(f"CV results saved to: {self.results_save_path}")
+    def update_params(self):
+        """Updates the best parameters from the Optuna study."""
+        study = self.load_optuna_study()
+        self.best_params = study.best_params
+        print(f"Updated best_params: {self.best_params}")
 
-        time_taken = time.time() - start_time
-        mins = int(time_taken) // 60
-        secs = int(time_taken) % 60
-        print(f"{self.model_name.upper()} cross-validation completed in {mins}m {secs}s.")
+    def train_final_model(self):
+        """Trains the final Ridge model using the best parameters from the Optuna study. Saves the model."""
+        self.update_params()
+        # fetch train data (with or without PCA)
+        X, y, wts = self.dh.get_ridge_data('train', self.best_params.get('n_components', None))
 
-        self.best_alpha = best_alpha
-        return results_df
+        self.model = Ridge(alpha=self.best_params['alpha'])
+        self.model.fit(X, y, sample_weight=wts.ravel())
 
-    def train_final_model(self,
-                          dh: DataHandler
-                          ):
-        """Trains the final Ridge model using the best alpha from attribute or CV results."""
-        if self.best_alpha is None:
-            results_df = pd.read_csv(self.results_save_path)
-            self.best_alpha = results_df.iloc[0]['alpha']
-        self.model = Ridge(alpha=self.best_alpha)
-        print(f"Using best alpha: {self.best_alpha}")
-
-        X_train, y_train, wts_train = dh.get_ridge_data('train')
-        self.model.fit(X_train, y_train, sample_weight=wts_train.ravel())
-
-        joblib.dump(self.model, self.model_save_path)
-        print(f"{self.model_name.upper()} training complete. Saved to {self.model_save_path}.")
+        joblib.dump(self.model, self.model_path)
+        print(f"Model saved to: {self.model_path}")
 
     def load_model(self):
-        """Loads a trained Ridge model into self.model."""
-        self.model = joblib.load(self.model_save_path)
-        print(f"Ridge model loaded successfully from {self.model_save_path}.")
+        """Loads a pre-trained model."""
+        if not os.path.exists(self.model_path):
+            raise FileNotFoundError(f"No model at {self.model_path}. Run train_final_model first.")
+        self.model = joblib.load(self.model_path)
+        print(f"Model loaded from: {self.model_path}")
 
-    def predict(self, dh: 'DataHandler', save: bool = False):
-        """Generates raw predictions for the test set using the trained Ridge model."""
-        if self.model is None: self.load_model()
+    def make_final_predictions(self):
+        if self.model is None:
+            self.load_model()
 
-        X_test = dh.get_ridge_data('test')[0]  # Get test data (X_test, y_test, wts_test)
+        X_test = self.dh.get_ridge_data('test', self.best_params.get('n_components', None))[0]
         y_pred = self.model.predict(X_test)
 
-        if save:
-            pred_df = pd.DataFrame(y_pred, columns=dh.targets)
-            pred_df.to_csv(self.pred_save_path, index=False)
-            print(f"County-level raw predictions saved to: {self.pred_save_path}")
-        
+        pred_df = pd.DataFrame(y_pred, columns=self.dh.targets)
+        pred_df.to_csv(self.pred_path, index=False)
+        print(f"Predictions saved to: {self.pred_path}")
+
         return y_pred

@@ -1,253 +1,304 @@
-"""
-XGBoost model handler for the election prediction project.
-
-The XGBoostModel class encapsulates:
-- Cross-validation with custom objective and evaluation metrics.
-- Final model training.
-- Saving and loading trained XGBoost boosters.
-- Generating predictions.
-"""
 import os
 import pandas as pd
 import numpy as np
-import json
+import optuna
 import xgboost as xgb
-import ast
+import joblib
 import time
-from sklearn.model_selection import ParameterGrid
-from typing import List, Dict, Union
+from data_handling import DataHandler # For type hinting
+from optuna.integration import XGBoostPruningCallback
 
-from .constants import MODELS_DIR, RESULTS_DIR, PREDS_DIR, DEVICE
-from .data_handling import DataHandler # For type hinting
-from .metrics import softmax, weighted_softprob_obj, weighted_cross_entropy_eval # Import metrics
+############################################
 
-# --- XGBoostModel Class ---
+def softmax(x: np.ndarray):
+    """Numerically stable softmax function."""
+    e_x = np.exp(x - np.max(x, axis=1, keepdims=True))
+    return e_x / np.sum(e_x, axis=1, keepdims=True)
+
+def weighted_softprob_obj(preds: np.ndarray, dtrain: xgb.DMatrix):
+    """Custom XGBoost objective for weighted cross-entropy with soft labels.
+    """
+    # Get true labels (soft probabilities) and weights
+    n_samples = preds.shape[0]
+    labels = dtrain.get_label().reshape((n_samples, 4))
+
+    # Calculate predicted probabas
+    tots = labels.sum(axis=1, keepdims=True) # P(18plus) per sample
+    probs = softmax(preds)
+    probs = probs * tots 
+
+    # Calculate Gradient: (q - p)
+    grad = probs - labels
+
+    # Calculate Hessian (diagonal approximation): tots * q * (1 - q)
+    hess = tots * probs * (1 - probs)
+    hess = np.maximum(hess, 1e-12)
+
+    return (grad,hess)
+
+def weighted_cross_entropy_eval(preds: np.ndarray, dtrain: xgb.DMatrix):
+    """Custom evaluation metric for weighted cross-entropy with soft labels."""
+    # Get true probas and weights
+    n_samples = preds.shape[0]
+    labels = dtrain.get_label().reshape((n_samples, 4))
+    weights = dtrain.get_weight().reshape((n_samples, 1))
+    weights = weights / weights.sum() # Normalize weights
+
+    # Calculate predicted probas
+    tots = labels.sum(axis=1, keepdims=True) # Total votes per sample
+    probs = softmax(preds)
+    probs = probs * tots
+
+    # Calculate weighted cross-entropy per sample
+    epsilon = 1e-9
+    probs = np.clip(probs, epsilon, 1. - epsilon)
+    sample_surprisals = - labels * np.log(probs) #surprisal weighted by labels
+    sample_loss = sample_surprisals.sum(axis=1) #sum across classes to get CE loss per sample
+
+    # Calculate average weighted cross-entropy
+    weighted_avg_ce = np.average(sample_loss, weights=weights.flatten())
+
+    return 'weighted-CE', weighted_avg_ce
+
+def objective_xgb(trial: optuna.trial.Trial, 
+                  dh: DataHandler,
+                  num_boost_rounds: int,
+                  early_stopping_rounds: int,
+                  use_pca: bool = False
+                  ):
+    """
+    Objective function for XGBoost hyperparameter optimization using Optuna. Uses weighted_softprob_obj and weighted_cross_entropy_eval as custom objective and evaluation metric. Returns the mean val loss for the trial.
+    """
+    # Get hyperparams for the current trial
+    params = {
+        'learning_rate': trial.suggest_float('learning_rate', 0.01, 0.3, log=True),
+        'gamma': trial.suggest_float('gamma', 0.0, 5.0, log=False),
+        'subsample': trial.suggest_float('subsample', 0.5, 1.0, log=False),
+        'colsample_bytree': trial.suggest_float('colsample_bytree', 0.4, 1.0, log=False),
+        'colsample_bylevel': trial.suggest_float('colsample_bylevel', 0.4, 1.0, log=False),
+        'colsample_bynode': trial.suggest_float('colsample_bynode', 0.4, 1.0, log=False),
+        'reg_alpha': trial.suggest_float('reg_alpha', 1e-8, 10.0, log=True),
+        'reg_lambda': trial.suggest_float('reg_lambda', 1e-8, 10.0, log=True),
+        'max_depth': trial.suggest_int('max_depth', 3, 12, step=1),
+        'min_child_weight': trial.suggest_int('min_child_weight', 1, 20, step=1)
+    }
+
+    if use_pca:
+        params['n_components'] = trial.suggest_int('n_components', 10, (dh.n_features // 10)*10, step=10)
+        dtrain = dh.get_xgb_data('train', params['n_components'])
+    else:
+        dtrain = dh.get_xgb_data('train')
+
+    pruning_callback = XGBoostPruningCallback(trial, "test-weighted-CE")
+
+    cv_results = xgb.cv(
+        params={**params, "verbosity": 0},
+        dtrain=dtrain,
+        num_boost_round=num_boost_rounds,
+        nfold=3,
+        obj=weighted_softprob_obj, #custom objective
+        custom_metric=weighted_cross_entropy_eval, #name='weighted-CE'
+        maximize=False,
+        early_stopping_rounds=early_stopping_rounds,
+        callbacks=[pruning_callback],
+        verbose_eval=False,
+        shuffle=False # Ensures folds match what's used by other models
+    )
+    
+    best_score = cv_results['test-weighted-CE-mean'].min()
+    return best_score
+
+# --- Main xgboost model handler class ---
 
 class XGBoostModel:
-    """Handles XGBoost CV, training, loading, and prediction."""
+    """
+    Handler for training, tuning, and using XGBoost models.     After initialization, use:
+        - run_optuna_study(...) to tune hyperparameters
+        - train_final_model(...) to train the model
+        - make_final_predictions(...) to get predictions on the test set
 
-    def __init__(self, model_name: str = 'xgboost'):
+    Typical usage in a Jupyter notebook:
+    ```python
+    xgbm = XGBoostModel(model_name="xgb")
+    xgbm.run_optuna_study(dh, min_resource=10, reduction_factor=2, n_trials=30, timeout=15)
+    xgbm.train_final_model(dh)
+    preds = xgbm.make_final_predictions(dh)
+    ```
+    """
+
+    def __init__(self, dh: DataHandler, model_name: str = 'xgboost'):
+        self.dh = dh
+        self.model_name = model_name
+        self.best_params = None 
+        self.optimal_boost_rounds = None 
+        self.model = None
+
+        # precompute file paths
+        self.study_path = os.path.join(dh.optuna_dir, f"{model_name}_study.pkl")
+        self.model_path = os.path.join(dh.models_dir, f"{model_name}_model.json")
+        self.pred_path  = os.path.join(dh.preds_dir,  f"{model_name}_preds.csv")
+
+        print(f'XGBoostModel initialized with model name: {self.model_name}')
+        print(f"Optuna study will be stored in  : {self.study_path}")
+        print(f"Trained model will be stored in : {self.model_path}")
+        print(f"Final preds will be stored in   : {self.pred_path}")
+
+    def run_optuna_study(self,
+                         min_resource: int,
+                         reduction_factor: int,
+                         n_trials: int,
+                         timeout: int, #in minutes
+                         num_boost_rounds: int = 150,
+                         early_stopping_rounds: int = 30,
+                         use_pca: bool = False
+                        ):
         """
-        Initializes the XGBoostModel handler.
+        Run an Optuna study to tune XGBoost hyperparameters using the ASHA pruning algorithm.
 
         Args:
-            model_name (str): A unique name for this model instance (e.g., "xgboost_custom").
+            min_resource (int):
+                Minimum number of boosting rounds before pruning can begin.
+            reduction_factor (int):
+                Factor by which the resource (boosting rounds) is reduced at each pruning step.
+            n_trials (int):
+                Maximum number of hyperparameter configurations to evaluate.
+            timeout (int):
+                Time limit for the entire study in minutes.
+            num_boost_rounds (int, optional):
+                Maximum number of boosting rounds to test in cross‐validation. Default is 150.
+            early_stopping_rounds (int, optional):
+                Number of rounds without improvement to stop a CV trial early. Default is 30.
+            use_pca (bool, optional):
+                If True, include PCA preprocessing and tune `n_components`. Default is False.
+
+        Side Effects:
+            - Updates `self.best_params` with the best hyperparameters.
+            - Sets `self.optimal_boost_rounds` to the best number of rounds.
+            - Always saves the completed Optuna study to `self.study_path`.
         """
-        self.model_name: str = model_name
-        self.model: Union[xgb.Booster, None] = None
-        self.best_params: Dict = {} # Stores best hyperparams found by CV
-        self.optimal_boost_rounds: Union[int, None] = None # Stores optimal avg # rounds from CV
 
-        # Define file paths based on model_name
-        self.results_save_path = os.path.join(RESULTS_DIR, f"{self.model_name}_cv_results.csv")
-        self.model_save_path = os.path.join(MODELS_DIR, f"{self.model_name}_final_model.json")
-        self.pred_save_path = os.path.join(PREDS_DIR, f"{self.model_name}_predictions.csv")
-
-    def _parse_best_params_from_csv(self):
-        """
-        (Internal Helper) Reads the best parameters and optimal rounds from CV results CSV.
-        """
-        results_df = pd.read_csv(self.results_save_path)
-        best_params_series = results_df.iloc[0] # Assumes sorted ascending by score
-        parsed_params = {}
-        optimal_estimators = None
-
-        for key, value in best_params_series.items():
-            if key == 'optimal_boost_rounds': # Note: key name updated
-                optimal_estimators = int(round(pd.to_numeric(value)))
-            elif key == 'mean_cv_score':
-                continue
-            else:
-                # Attempt parsing (handles numbers, lists stored as strings)
-                try:
-                    evaluated = ast.literal_eval(str(value))
-                    if isinstance(evaluated, (int, float)):
-                        if evaluated == int(evaluated): parsed_params[key] = int(evaluated)
-                        else: parsed_params[key] = float(evaluated)
-                    else:
-                         parsed_params[key] = evaluated
-                except (ValueError, SyntaxError):
-                    try:
-                       num_val = pd.to_numeric(value)
-                       if num_val == int(num_val): parsed_params[key] = int(num_val)
-                       else: parsed_params[key] = num_val
-                    except ValueError:
-                         parsed_params[key] = value # Keep as string if all else fails
-
-        return parsed_params, optimal_estimators
-
-    def cross_validate(self,
-                       dh: 'DataHandler',
-                       param_grid: Dict,
-                       max_finalists: int = 10,
-                       early_stopping_rounds: int = 30,
-                       num_boost_rounds: int = 150, 
-                       save: bool = True,
-                       ):
-        """
-        Performs Cross-Validation for XGBoost using xgb.cv and early stopping
-        with the custom weighted cross-entropy objective and evaluation metric.
-        """       
-        metric_name = 'weighted-CE' # Name used in eval
-        results_list = []
-        best_val_loss = float('inf')
-        best_params = {}
-        optimal_rounds = float('inf')
-        dtrain = dh.get_xgb_data('train') 
-        config_list = list(ParameterGrid(param_grid))
-        print(f"\n--- Starting Cross-Validation for {self.model_name.upper()}. Testing   {len(config_list)} configs ---")
-        print(f"Using device {DEVICE}.")
-        print("--------------------------------------")
-        start_time = time.time()
-        for i, config in enumerate(config_list, 1):
-            config_start_time = time.time() 
-            params_for_cv = {**config,
-                            #  'objective': 'weighted-CE',
-                            #  'num_target': 4,
-                             'n_jobs': -1, # Use all available cores
-                             'disable_default_eval_metric': True, # Disable default eval metric
-                             }
-            # add gpu_hist param if cuda is available
-            if DEVICE.type == 'cuda':
-                params_for_cv['tree_method'] = 'hist'
-                params_for_cv['device'] = DEVICE
-                
-
-            #NOTE: setting shuffle=False ensures that the folds are exactly same as what's used by other models
-            cv_results_df = xgb.cv(
-                params=params_for_cv,
-                dtrain=dtrain,
-                num_boost_round=num_boost_rounds,
-                nfold=3, 
-                obj = weighted_softprob_obj, # Custom objective
-                custom_metric=weighted_cross_entropy_eval,
-                maximize=False, # Minimize weighted-CE
-                early_stopping_rounds=early_stopping_rounds,
-                verbose_eval=False, # No output
-                shuffle=False,
+        pruner = optuna.pruners.SuccessiveHalvingPruner(
+            min_resource=min_resource,
+            reduction_factor=reduction_factor,
+            min_early_stopping_rate=0
+        )
+        study = optuna.create_study(
+            study_name=f"{self.model_name}_study",
+            direction='minimize',
+            pruner=pruner
+        )
+        study.optimize(
+            lambda t: objective_xgb(t, 
+                                    self.dh,  
+                                    num_boost_rounds, 
+                                    early_stopping_rounds, 
+                                    use_pca),
+            n_trials=n_trials,
+            timeout=timeout * 60, # Convert to seconds
+            n_jobs=-1
             )
-            # print(cv_results_df)
-            time_taken = time.time() - config_start_time
-            train_loss = cv_results_df[f'train-{metric_name}-mean'].min()
-            val_loss = cv_results_df[f'test-{metric_name}-mean'].min()
-            config_rounds = cv_results_df[f'test-{metric_name}-mean'].idxmin() + 1
+        
+        best_trial = study.best_trial
+        vals = list(best_trial.intermediate_values.values())
 
-            result_entry = {**config,
-                            'Train loss': train_loss,
-                            'Val Loss': val_loss,
-                            'Optimal rounds': config_rounds,
-                            'Time taken': f"{time_taken:.2f}s"
-                            }
-            results_list.append(result_entry)
-            print(f"Config: {str(i).rjust(3)} | Train loss: {train_loss:.4f} | Val Loss: {val_loss:.4f} | Optimal Rounds: {config_rounds} | Time taken: {time_taken:.2f}s")
+        self.best_params = best_trial.params
+        self.optimal_boost_rounds = int(np.argmin(vals)) + 1 
 
-            # Update overall best score, params, and rounds if this config is better
-            if val_loss < best_val_loss:
-                best_val_loss = val_loss
-                best_params = config
-                optimal_rounds = config_rounds
+        print('-' * 20)
+        print('Study concluded. Results:')
+        print(f"Best trial: {best_trial.number}")
+        print(f"Best loss: {best_trial.value}")
+        print(f"Best params: {self.best_params}")
+        print(f"Optimal boosting rounds: {self.optimal_boost_rounds}")
 
-        self.best_params = best_params
-        self.optimal_boost_rounds = optimal_rounds
+        joblib.dump(study, self.study_path)
+        print(f"Study saved to {self.study_path}")    
 
-        results_df = pd.DataFrame(results_list)
-        results_df = results_df.sort_values(by='Val Loss', ascending=True).reset_index(drop=True)
+    def load_optuna_study(self):
+        """Loads an Optuna study. Returns the study object."""
+        if not os.path.exists(self.study_path):
+            raise FileNotFoundError(f"No study at {self.study_path}")
+        study = joblib.load(self.study_path)
+        print(f"Study loaded from {self.study_path}")
+        return study
+    
+    def update_params(self):
+        """Updates the best hyperparameters and optimal boosting rounds from the study."""
+        study = self.load_optuna_study()
+        best_trial = study.best_trial
+        vals = list(best_trial.intermediate_values.values())
 
-        if save:
-            results_df.to_csv(self.results_save_path, index=False)
-            print(f"CV results saved to: {self.results_save_path}")
+        self.best_params = best_trial.params
+        self.optimal_boost_rounds = int(np.argmin(vals)) + 1 
 
-        time_taken = time.time() - start_time
-        mins = int(time_taken) // 60
-        secs = int(time_taken) % 60
-        print(f"XGB cross-Validation completed in {mins}m {secs}s.")
+        print(f"Best params: {self.best_params}")
+        print(f"Optimal boosting rounds: {self.optimal_boost_rounds}")
 
-        return results_df.head(max_finalists) #return only top max_finalists
+        return study
 
-    def train_final_model(self, dh: 'DataHandler'):
+    def train_final_model(self, num_boost_round: int = None):
         """
         Trains the final XGBoost model using the best hyperparameters and
-        the optimal number of boosting rounds determined by cross-validation.
+        the optimal number of boosting rounds from the Optuna study. Saves the trained model.
         """
-        print(f"\n--- Starting Final Model Training for {self.model_name.upper()} ---")
+        if self.best_params is None or self.optimal_boost_rounds is None:
+            self.update_params()
+        if num_boost_round is None:
+            num_boost_round = self.optimal_boost_rounds
 
-        # 1. Load best hyperparameters and optimal rounds if not already set
-        if not self.best_params or self.optimal_boost_rounds is None:
-             loaded_params, loaded_rounds = self._parse_best_params_from_csv()
-             self.best_params = loaded_params
-             self.optimal_boost_rounds = loaded_rounds
-
-        print(f"Using best hyperparameters from CV: {self.best_params}")
-        print(f"Using optimal boosting rounds from CV: {self.optimal_boost_rounds}")
-
-        # Prepare parameters for xgb.train
+        dtrain = self.dh.get_xgb_data('train', self.best_params.get('n_components', None))
         final_train_params = {
             **self.best_params,
             'n_jobs': -1, # Use all available cores
+            'verbosity': 0
         }
 
-        # 2. Prepare the final training DMatrix
-        dtrain = dh.get_xgb_data('train') 
+        print(f'Training {self.model_name} for {num_boost_round} boosting rounds...')
+        print(f"Using best params: {self.best_params}")
 
-        # 3. Fit the final model using xgb.train
-        print(f"Fitting final model with {self.optimal_boost_rounds} boosting rounds...")
-        start_time_train = time.time()
+        start_time = time.time()
         bst = xgb.train(
             params=final_train_params,
             dtrain=dtrain,
-            num_boost_round=self.optimal_boost_rounds, # Use exact rounds from CV
-            custom_metric=weighted_cross_entropy_eval, # Needed if using evals list
-            maximize=False,
-            verbose_eval=10 # Print progress every 10 rounds if evals is used
-        )
-        end_time_train = time.time()
-        print(f"Final model fitting complete ({end_time_train - start_time_train:.2f} seconds).")
+            num_boost_round=num_boost_round, 
+            custom_metric=weighted_cross_entropy_eval, 
+            maximize=False
+            )
+        time_taken = time.time() - start_time
+        print(f"Training completed in {time_taken:.2f} seconds.")
 
-        # 4. Save the trained Booster model
+        bst.save_model(self.model_path)
+        print(f"Model saved to {self.model_path}")
+
         self.model = bst
-        bst.save_model(self.model_save_path)
-        print(f"Saved final trained XGBoost model to: {self.model_save_path}")
 
     def load_model(self):
-        """Loads a trained XGBoost Booster model from its saved file."""
-        print(f"\n--- Loading Final Model for {self.model_name.upper()} ---")
-        print(f"Loading model state from: {self.model_save_path}")
+        """Loads a trained XGBoost Booster model."""
+        if not os.path.exists(self.model_path):
+            raise FileNotFoundError(f"No model at {self.model_path}")
         self.model = xgb.Booster()
-        self.model.load_model(self.model_save_path)
-        print(f"{self.model_name.upper()} model loaded successfully.")
+        self.model.load_model(self.model_path)
+        print(f"Model loaded from {self.model_path}")
 
-    def predict(self,
-                dh: 'DataHandler', # Assumes DataHandler class definition exists
-                save: bool = False
-               ):
+    def make_final_predictions(self):
         """
-        Generates predictions (numpy array of shape [n_samples, 4]) for the test set using the trained XGBoost model. If `save` is True, saves the predictions to a CSV file. 
+        Makes predictions on the test set using the trained model. Saves the predictions to a CSV file, and returns the predictions as a numpy array.
         """
         if self.model is None:
             self.load_model()
 
-        dtest = dh.get_xgb_data('test') 
-        X_test, y_test, _ = dh.get_ridge_data('test') 
+        dtest = self.dh.get_xgb_data('test', self.best_params.get('n_components', None)) 
+        X_test, y_test, _ = self.dh.get_ridge_data('test', self.best_params.get('n_components', None)) 
         n_samples = X_test.shape[0]
         y_tots = y_test.sum(axis=1, keepdims=True) # P(18plus|C), shape [n_samples, 1]
 
-        # Create final, scaled predictions
-        y_pred = self.model.predict(dtest)
-        y_pred = y_pred.reshape((n_samples, 4))
-        y_pred = softmax(y_pred) 
-        y_pred = y_pred * y_tots
+        y_pred = self.model.predict(dtest).reshape((n_samples, 4))
+        y_pred = softmax(y_pred) * y_tots
 
-        if save:
-            pred_df = pd.DataFrame(y_pred, columns=dh.targets)
-            pred_df.to_csv(self.pred_save_path, index=False)
-            print(f"County-level scaled predictions saved to: {self.pred_save_path}")
+        pred_df = pd.DataFrame(y_pred, columns=self.dh.targets)
+        pred_df.to_csv(self.pred_path, index=False)
+        print(f"{self.model_name} predictions saved to: {self.pred_path}.")
 
         return y_pred
 
 
-# Replace self.softmax, self.weighted_softprob_obj, etc. with imported functions.
-# Ensure paths use constants from constants.py
-# Example in cross_validate:
-# obj=weighted_softprob_obj, custom_metric=weighted_cross_entropy_eval
-# Example in predict:
-# y_pred = softmax(y_pred)
