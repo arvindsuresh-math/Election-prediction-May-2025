@@ -1,0 +1,71 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.ipynb~
+
+# VSCode and editor settings
+.vscode/
+*.code-workspace
+
+# Data and results
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.parquet
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.sav
+*.sqlite
+*.db
+
+# Plots and images
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Environment and dependency files
+.env
+.venv/
+venv/
+.envrc
+
+# OS and miscellaneous
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+*.err
+
+# Ignore model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo

@@ -1,0 +1,2362 @@
+[
+    {
+        "year": 2008,
+        "code": "GISJOIN",
+        "description": "GIS Join Match Code"
+    },
+    {
+        "year": 2008,
+        "code": "YEAR",
+        "description": "Data File Year"
+    },
+    {
+        "year": 2008,
+        "code": "STATE",
+        "description": "NHGIS Integrated State Name"
+    },
+    {
+        "year": 2008,
+        "code": "STATEFP",
+        "description": "FIPS State Code"
+    },
+    {
+        "year": 2008,
+        "code": "STATENH",
+        "description": "NHGIS Integrated State Code"
+    },
+    {
+        "year": 2008,
+        "code": "COUNTY",
+        "description": "NHGIS Integrated County Name"
+    },
+    {
+        "year": 2008,
+        "code": "COUNTYFP",
+        "description": "FIPS County Code"
+    },
+    {
+        "year": 2008,
+        "code": "COUNTYNH",
+        "description": "NHGIS Integrated County Code"
+    },
+    {
+        "year": 2008,
+        "code": "NAME",
+        "description": "Area Name, 2006-2010"
+    },
+    {
+        "year": 2008,
+        "code": "AV0AA105",
+        "description": "Persons: Total"
+    },
+    {
+        "year": 2008,
+        "code": "AV1AA105",
+        "description": "Persons: Male"
+    },
+    {
+        "year": 2008,
+        "code": "AV1AB105",
+        "description": "Persons: Female"
+    },
+    {
+        "year": 2008,
+        "code": "A35AA105",
+        "description": "Persons: Hispanic or Latino"
+    },
+    {
+        "year": 2008,
+        "code": "AR5AA105",
+        "description": "Households: Total"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AA105",
+        "description": "Persons: Male ~ Never married"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AB105",
+        "description": "Persons: Male ~ Now married"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AC105",
+        "description": "Persons: Male ~ Now married--Not separated"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AD105",
+        "description": "Persons: Male ~ Now married--Separated"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AE105",
+        "description": "Persons: Male ~ Widowed"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AF105",
+        "description": "Persons: Male ~ Divorced"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AG105",
+        "description": "Persons: Female ~ Never married"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AH105",
+        "description": "Persons: Female ~ Now married"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AI105",
+        "description": "Persons: Female ~ Now married--Not separated"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AJ105",
+        "description": "Persons: Female ~ Now married--Separated"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AK105",
+        "description": "Persons: Female ~ Widowed"
+    },
+    {
+        "year": 2008,
+        "code": "BL1AL105",
+        "description": "Persons: Female ~ Divorced"
+    },
+    {
+        "year": 2008,
+        "code": "AT5AA105",
+        "description": "Persons: Native"
+    },
+    {
+        "year": 2008,
+        "code": "AT5AB105",
+        "description": "Persons: Foreign born"
+    },
+    {
+        "year": 2008,
+        "code": "B87AA105",
+        "description": "Persons: 18 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B87AB105",
+        "description": "Persons: 18 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B87AC105",
+        "description": "Persons: 18 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B87AD105",
+        "description": "Persons: 18 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B87AE105",
+        "description": "Persons: 18 years and over ~ Associate degree"
+    },
+    {
+        "year": 2008,
+        "code": "B87AF105",
+        "description": "Persons: 18 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B87AG105",
+        "description": "Persons: 18 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AA105",
+        "description": "Persons: Male ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91AB105",
+        "description": "Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91AC105",
+        "description": "Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91AD105",
+        "description": "Persons: Male ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AE105",
+        "description": "Persons: Male ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AF105",
+        "description": "Persons: Male ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AG105",
+        "description": "Persons: Male ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AH105",
+        "description": "Persons: Male ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91AI105",
+        "description": "Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91AJ105",
+        "description": "Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91AK105",
+        "description": "Persons: Male ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AL105",
+        "description": "Persons: Male ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AM105",
+        "description": "Persons: Male ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AN105",
+        "description": "Persons: Male ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AO105",
+        "description": "Persons: Male ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91AP105",
+        "description": "Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91AQ105",
+        "description": "Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91AR105",
+        "description": "Persons: Male ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AS105",
+        "description": "Persons: Male ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AT105",
+        "description": "Persons: Male ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AU105",
+        "description": "Persons: Male ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AV105",
+        "description": "Persons: Male ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91AW105",
+        "description": "Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91AX105",
+        "description": "Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91AY105",
+        "description": "Persons: Male ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91AZ105",
+        "description": "Persons: Male ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BA105",
+        "description": "Persons: Male ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BB105",
+        "description": "Persons: Male ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BC105",
+        "description": "Persons: Male ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91BD105",
+        "description": "Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91BE105",
+        "description": "Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91BF105",
+        "description": "Persons: Male ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BG105",
+        "description": "Persons: Male ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BH105",
+        "description": "Persons: Male ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BI105",
+        "description": "Persons: Male ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BJ105",
+        "description": "Persons: Female ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91BK105",
+        "description": "Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91BL105",
+        "description": "Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91BM105",
+        "description": "Persons: Female ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BN105",
+        "description": "Persons: Female ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BO105",
+        "description": "Persons: Female ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BP105",
+        "description": "Persons: Female ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BQ105",
+        "description": "Persons: Female ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91BR105",
+        "description": "Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91BS105",
+        "description": "Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91BT105",
+        "description": "Persons: Female ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BU105",
+        "description": "Persons: Female ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BV105",
+        "description": "Persons: Female ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BW105",
+        "description": "Persons: Female ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91BX105",
+        "description": "Persons: Female ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91BY105",
+        "description": "Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91BZ105",
+        "description": "Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91CA105",
+        "description": "Persons: Female ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CB105",
+        "description": "Persons: Female ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CC105",
+        "description": "Persons: Female ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CD105",
+        "description": "Persons: Female ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CE105",
+        "description": "Persons: Female ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91CF105",
+        "description": "Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91CG105",
+        "description": "Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91CH105",
+        "description": "Persons: Female ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CI105",
+        "description": "Persons: Female ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CJ105",
+        "description": "Persons: Female ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CK105",
+        "description": "Persons: Female ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CL105",
+        "description": "Persons: Female ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2008,
+        "code": "B91CM105",
+        "description": "Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2008,
+        "code": "B91CN105",
+        "description": "Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2008,
+        "code": "B91CO105",
+        "description": "Persons: Female ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CP105",
+        "description": "Persons: Female ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CQ105",
+        "description": "Persons: Female ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2008,
+        "code": "B91CR105",
+        "description": "Persons: Female ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2008,
+        "code": "B84AA105",
+        "description": "Persons: 16 years and over ~ In labor force"
+    },
+    {
+        "year": 2008,
+        "code": "B84AB105",
+        "description": "Persons: 16 years and over ~ In labor force--In Armed Forces"
+    },
+    {
+        "year": 2008,
+        "code": "B84AC105",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian"
+    },
+    {
+        "year": 2008,
+        "code": "B84AD105",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Employed"
+    },
+    {
+        "year": 2008,
+        "code": "B84AE105",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Unemployed"
+    },
+    {
+        "year": 2008,
+        "code": "B84AF105",
+        "description": "Persons: 16 years and over ~ Not in labor force"
+    },
+    {
+        "year": 2008,
+        "code": "BS7AA105",
+        "description": "Households: Income less than $10,000"
+    },
+    {
+        "year": 2008,
+        "code": "BS7AB105",
+        "description": "Households: Income $10,000 to $14,999"
+    },
+    {
+        "year": 2008,
+        "code": "BS7AC105",
+        "description": "Households: Income $15,000 to $24,999"
+    },
+    {
+        "year": 2008,
+        "code": "BS7AD105",
+        "description": "Households: Income $25,000 or more"
+    },
+    {
+        "year": 2008,
+        "code": "B79AA105",
+        "description": "Median income in previous year: Households"
+    },
+    {
+        "year": 2008,
+        "code": "BD5AA105",
+        "description": "Per capita income in previous year"
+    },
+    {
+        "year": 2008,
+        "code": "CL6AA105",
+        "description": "Persons: Poverty status is determined ~ Income below poverty level"
+    },
+    {
+        "year": 2012,
+        "code": "GISJOIN",
+        "description": "GIS Join Match Code"
+    },
+    {
+        "year": 2012,
+        "code": "YEAR",
+        "description": "Data File Year"
+    },
+    {
+        "year": 2012,
+        "code": "STATE",
+        "description": "NHGIS Integrated State Name"
+    },
+    {
+        "year": 2012,
+        "code": "STATEFP",
+        "description": "FIPS State Code"
+    },
+    {
+        "year": 2012,
+        "code": "STATENH",
+        "description": "NHGIS Integrated State Code"
+    },
+    {
+        "year": 2012,
+        "code": "COUNTY",
+        "description": "NHGIS Integrated County Name"
+    },
+    {
+        "year": 2012,
+        "code": "COUNTYFP",
+        "description": "FIPS County Code"
+    },
+    {
+        "year": 2012,
+        "code": "COUNTYNH",
+        "description": "NHGIS Integrated County Code"
+    },
+    {
+        "year": 2012,
+        "code": "NAME",
+        "description": "Area Name, 2010-2014"
+    },
+    {
+        "year": 2012,
+        "code": "AV0AA145",
+        "description": "Persons: Total"
+    },
+    {
+        "year": 2012,
+        "code": "AV1AA145",
+        "description": "Persons: Male"
+    },
+    {
+        "year": 2012,
+        "code": "AV1AB145",
+        "description": "Persons: Female"
+    },
+    {
+        "year": 2012,
+        "code": "A35AA145",
+        "description": "Persons: Hispanic or Latino"
+    },
+    {
+        "year": 2012,
+        "code": "AR5AA145",
+        "description": "Households: Total"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AA145",
+        "description": "Persons: Male ~ Never married"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AB145",
+        "description": "Persons: Male ~ Now married"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AC145",
+        "description": "Persons: Male ~ Now married--Not separated"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AD145",
+        "description": "Persons: Male ~ Now married--Separated"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AE145",
+        "description": "Persons: Male ~ Widowed"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AF145",
+        "description": "Persons: Male ~ Divorced"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AG145",
+        "description": "Persons: Female ~ Never married"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AH145",
+        "description": "Persons: Female ~ Now married"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AI145",
+        "description": "Persons: Female ~ Now married--Not separated"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AJ145",
+        "description": "Persons: Female ~ Now married--Separated"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AK145",
+        "description": "Persons: Female ~ Widowed"
+    },
+    {
+        "year": 2012,
+        "code": "BL1AL145",
+        "description": "Persons: Female ~ Divorced"
+    },
+    {
+        "year": 2012,
+        "code": "AT5AA145",
+        "description": "Persons: Native"
+    },
+    {
+        "year": 2012,
+        "code": "AT5AB145",
+        "description": "Persons: Foreign born"
+    },
+    {
+        "year": 2012,
+        "code": "B87AA145",
+        "description": "Persons: 18 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B87AB145",
+        "description": "Persons: 18 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B87AC145",
+        "description": "Persons: 18 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B87AD145",
+        "description": "Persons: 18 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B87AE145",
+        "description": "Persons: 18 years and over ~ Associate degree"
+    },
+    {
+        "year": 2012,
+        "code": "B87AF145",
+        "description": "Persons: 18 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B87AG145",
+        "description": "Persons: 18 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AA145",
+        "description": "Persons: Male ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91AB145",
+        "description": "Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91AC145",
+        "description": "Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91AD145",
+        "description": "Persons: Male ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AE145",
+        "description": "Persons: Male ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AF145",
+        "description": "Persons: Male ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AG145",
+        "description": "Persons: Male ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AH145",
+        "description": "Persons: Male ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91AI145",
+        "description": "Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91AJ145",
+        "description": "Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91AK145",
+        "description": "Persons: Male ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AL145",
+        "description": "Persons: Male ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AM145",
+        "description": "Persons: Male ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AN145",
+        "description": "Persons: Male ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AO145",
+        "description": "Persons: Male ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91AP145",
+        "description": "Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91AQ145",
+        "description": "Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91AR145",
+        "description": "Persons: Male ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AS145",
+        "description": "Persons: Male ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AT145",
+        "description": "Persons: Male ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AU145",
+        "description": "Persons: Male ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AV145",
+        "description": "Persons: Male ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91AW145",
+        "description": "Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91AX145",
+        "description": "Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91AY145",
+        "description": "Persons: Male ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91AZ145",
+        "description": "Persons: Male ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BA145",
+        "description": "Persons: Male ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BB145",
+        "description": "Persons: Male ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BC145",
+        "description": "Persons: Male ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91BD145",
+        "description": "Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91BE145",
+        "description": "Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91BF145",
+        "description": "Persons: Male ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BG145",
+        "description": "Persons: Male ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BH145",
+        "description": "Persons: Male ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BI145",
+        "description": "Persons: Male ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BJ145",
+        "description": "Persons: Female ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91BK145",
+        "description": "Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91BL145",
+        "description": "Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91BM145",
+        "description": "Persons: Female ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BN145",
+        "description": "Persons: Female ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BO145",
+        "description": "Persons: Female ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BP145",
+        "description": "Persons: Female ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BQ145",
+        "description": "Persons: Female ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91BR145",
+        "description": "Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91BS145",
+        "description": "Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91BT145",
+        "description": "Persons: Female ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BU145",
+        "description": "Persons: Female ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BV145",
+        "description": "Persons: Female ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BW145",
+        "description": "Persons: Female ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91BX145",
+        "description": "Persons: Female ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91BY145",
+        "description": "Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91BZ145",
+        "description": "Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91CA145",
+        "description": "Persons: Female ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CB145",
+        "description": "Persons: Female ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CC145",
+        "description": "Persons: Female ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CD145",
+        "description": "Persons: Female ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CE145",
+        "description": "Persons: Female ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91CF145",
+        "description": "Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91CG145",
+        "description": "Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91CH145",
+        "description": "Persons: Female ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CI145",
+        "description": "Persons: Female ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CJ145",
+        "description": "Persons: Female ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CK145",
+        "description": "Persons: Female ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CL145",
+        "description": "Persons: Female ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2012,
+        "code": "B91CM145",
+        "description": "Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2012,
+        "code": "B91CN145",
+        "description": "Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2012,
+        "code": "B91CO145",
+        "description": "Persons: Female ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CP145",
+        "description": "Persons: Female ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CQ145",
+        "description": "Persons: Female ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2012,
+        "code": "B91CR145",
+        "description": "Persons: Female ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2012,
+        "code": "B84AA145",
+        "description": "Persons: 16 years and over ~ In labor force"
+    },
+    {
+        "year": 2012,
+        "code": "B84AB145",
+        "description": "Persons: 16 years and over ~ In labor force--In Armed Forces"
+    },
+    {
+        "year": 2012,
+        "code": "B84AC145",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian"
+    },
+    {
+        "year": 2012,
+        "code": "B84AD145",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Employed"
+    },
+    {
+        "year": 2012,
+        "code": "B84AE145",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Unemployed"
+    },
+    {
+        "year": 2012,
+        "code": "B84AF145",
+        "description": "Persons: 16 years and over ~ Not in labor force"
+    },
+    {
+        "year": 2012,
+        "code": "BS7AA145",
+        "description": "Households: Income less than $10,000"
+    },
+    {
+        "year": 2012,
+        "code": "BS7AB145",
+        "description": "Households: Income $10,000 to $14,999"
+    },
+    {
+        "year": 2012,
+        "code": "BS7AC145",
+        "description": "Households: Income $15,000 to $24,999"
+    },
+    {
+        "year": 2012,
+        "code": "BS7AD145",
+        "description": "Households: Income $25,000 or more"
+    },
+    {
+        "year": 2012,
+        "code": "B79AA145",
+        "description": "Median income in previous year: Households"
+    },
+    {
+        "year": 2012,
+        "code": "BD5AA145",
+        "description": "Per capita income in previous year"
+    },
+    {
+        "year": 2012,
+        "code": "CL6AA145",
+        "description": "Persons: Poverty status is determined ~ Income below poverty level"
+    },
+    {
+        "year": 2016,
+        "code": "GISJOIN",
+        "description": "GIS Join Match Code"
+    },
+    {
+        "year": 2016,
+        "code": "YEAR",
+        "description": "Data File Year"
+    },
+    {
+        "year": 2016,
+        "code": "STATE",
+        "description": "NHGIS Integrated State Name"
+    },
+    {
+        "year": 2016,
+        "code": "STATEFP",
+        "description": "FIPS State Code"
+    },
+    {
+        "year": 2016,
+        "code": "STATENH",
+        "description": "NHGIS Integrated State Code"
+    },
+    {
+        "year": 2016,
+        "code": "COUNTY",
+        "description": "NHGIS Integrated County Name"
+    },
+    {
+        "year": 2016,
+        "code": "COUNTYFP",
+        "description": "FIPS County Code"
+    },
+    {
+        "year": 2016,
+        "code": "COUNTYNH",
+        "description": "NHGIS Integrated County Code"
+    },
+    {
+        "year": 2016,
+        "code": "NAME",
+        "description": "Area Name, 2014-2018"
+    },
+    {
+        "year": 2016,
+        "code": "AV0AA185",
+        "description": "Persons: Total"
+    },
+    {
+        "year": 2016,
+        "code": "AV1AA185",
+        "description": "Persons: Male"
+    },
+    {
+        "year": 2016,
+        "code": "AV1AB185",
+        "description": "Persons: Female"
+    },
+    {
+        "year": 2016,
+        "code": "A35AA185",
+        "description": "Persons: Hispanic or Latino"
+    },
+    {
+        "year": 2016,
+        "code": "AR5AA185",
+        "description": "Households: Total"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AA185",
+        "description": "Persons: Male ~ Never married"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AB185",
+        "description": "Persons: Male ~ Now married"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AC185",
+        "description": "Persons: Male ~ Now married--Not separated"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AD185",
+        "description": "Persons: Male ~ Now married--Separated"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AE185",
+        "description": "Persons: Male ~ Widowed"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AF185",
+        "description": "Persons: Male ~ Divorced"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AG185",
+        "description": "Persons: Female ~ Never married"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AH185",
+        "description": "Persons: Female ~ Now married"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AI185",
+        "description": "Persons: Female ~ Now married--Not separated"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AJ185",
+        "description": "Persons: Female ~ Now married--Separated"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AK185",
+        "description": "Persons: Female ~ Widowed"
+    },
+    {
+        "year": 2016,
+        "code": "BL1AL185",
+        "description": "Persons: Female ~ Divorced"
+    },
+    {
+        "year": 2016,
+        "code": "AT5AA185",
+        "description": "Persons: Native"
+    },
+    {
+        "year": 2016,
+        "code": "AT5AB185",
+        "description": "Persons: Foreign born"
+    },
+    {
+        "year": 2016,
+        "code": "B87AA185",
+        "description": "Persons: 18 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B87AB185",
+        "description": "Persons: 18 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B87AC185",
+        "description": "Persons: 18 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B87AD185",
+        "description": "Persons: 18 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B87AE185",
+        "description": "Persons: 18 years and over ~ Associate degree"
+    },
+    {
+        "year": 2016,
+        "code": "B87AF185",
+        "description": "Persons: 18 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B87AG185",
+        "description": "Persons: 18 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AA185",
+        "description": "Persons: Male ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91AB185",
+        "description": "Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91AC185",
+        "description": "Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91AD185",
+        "description": "Persons: Male ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AE185",
+        "description": "Persons: Male ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AF185",
+        "description": "Persons: Male ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AG185",
+        "description": "Persons: Male ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AH185",
+        "description": "Persons: Male ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91AI185",
+        "description": "Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91AJ185",
+        "description": "Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91AK185",
+        "description": "Persons: Male ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AL185",
+        "description": "Persons: Male ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AM185",
+        "description": "Persons: Male ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AN185",
+        "description": "Persons: Male ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AO185",
+        "description": "Persons: Male ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91AP185",
+        "description": "Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91AQ185",
+        "description": "Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91AR185",
+        "description": "Persons: Male ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AS185",
+        "description": "Persons: Male ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AT185",
+        "description": "Persons: Male ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AU185",
+        "description": "Persons: Male ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AV185",
+        "description": "Persons: Male ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91AW185",
+        "description": "Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91AX185",
+        "description": "Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91AY185",
+        "description": "Persons: Male ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91AZ185",
+        "description": "Persons: Male ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BA185",
+        "description": "Persons: Male ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BB185",
+        "description": "Persons: Male ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BC185",
+        "description": "Persons: Male ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91BD185",
+        "description": "Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91BE185",
+        "description": "Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91BF185",
+        "description": "Persons: Male ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BG185",
+        "description": "Persons: Male ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BH185",
+        "description": "Persons: Male ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BI185",
+        "description": "Persons: Male ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BJ185",
+        "description": "Persons: Female ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91BK185",
+        "description": "Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91BL185",
+        "description": "Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91BM185",
+        "description": "Persons: Female ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BN185",
+        "description": "Persons: Female ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BO185",
+        "description": "Persons: Female ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BP185",
+        "description": "Persons: Female ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BQ185",
+        "description": "Persons: Female ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91BR185",
+        "description": "Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91BS185",
+        "description": "Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91BT185",
+        "description": "Persons: Female ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BU185",
+        "description": "Persons: Female ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BV185",
+        "description": "Persons: Female ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BW185",
+        "description": "Persons: Female ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91BX185",
+        "description": "Persons: Female ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91BY185",
+        "description": "Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91BZ185",
+        "description": "Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91CA185",
+        "description": "Persons: Female ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CB185",
+        "description": "Persons: Female ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CC185",
+        "description": "Persons: Female ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CD185",
+        "description": "Persons: Female ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CE185",
+        "description": "Persons: Female ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91CF185",
+        "description": "Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91CG185",
+        "description": "Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91CH185",
+        "description": "Persons: Female ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CI185",
+        "description": "Persons: Female ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CJ185",
+        "description": "Persons: Female ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CK185",
+        "description": "Persons: Female ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CL185",
+        "description": "Persons: Female ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2016,
+        "code": "B91CM185",
+        "description": "Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2016,
+        "code": "B91CN185",
+        "description": "Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2016,
+        "code": "B91CO185",
+        "description": "Persons: Female ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CP185",
+        "description": "Persons: Female ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CQ185",
+        "description": "Persons: Female ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2016,
+        "code": "B91CR185",
+        "description": "Persons: Female ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2016,
+        "code": "B84AA185",
+        "description": "Persons: 16 years and over ~ In labor force"
+    },
+    {
+        "year": 2016,
+        "code": "B84AB185",
+        "description": "Persons: 16 years and over ~ In labor force--In Armed Forces"
+    },
+    {
+        "year": 2016,
+        "code": "B84AC185",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian"
+    },
+    {
+        "year": 2016,
+        "code": "B84AD185",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Employed"
+    },
+    {
+        "year": 2016,
+        "code": "B84AE185",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Unemployed"
+    },
+    {
+        "year": 2016,
+        "code": "B84AF185",
+        "description": "Persons: 16 years and over ~ Not in labor force"
+    },
+    {
+        "year": 2016,
+        "code": "BS7AA185",
+        "description": "Households: Income less than $10,000"
+    },
+    {
+        "year": 2016,
+        "code": "BS7AB185",
+        "description": "Households: Income $10,000 to $14,999"
+    },
+    {
+        "year": 2016,
+        "code": "BS7AC185",
+        "description": "Households: Income $15,000 to $24,999"
+    },
+    {
+        "year": 2016,
+        "code": "BS7AD185",
+        "description": "Households: Income $25,000 or more"
+    },
+    {
+        "year": 2016,
+        "code": "B79AA185",
+        "description": "Median income in previous year: Households"
+    },
+    {
+        "year": 2016,
+        "code": "BD5AA185",
+        "description": "Per capita income in previous year"
+    },
+    {
+        "year": 2016,
+        "code": "CL6AA185",
+        "description": "Persons: Poverty status is determined ~ Income below poverty level"
+    },
+    {
+        "year": 2020,
+        "code": "GISJOIN",
+        "description": "GIS Join Match Code"
+    },
+    {
+        "year": 2020,
+        "code": "YEAR",
+        "description": "Data File Year"
+    },
+    {
+        "year": 2020,
+        "code": "STATE",
+        "description": "NHGIS Integrated State Name"
+    },
+    {
+        "year": 2020,
+        "code": "STATEFP",
+        "description": "FIPS State Code"
+    },
+    {
+        "year": 2020,
+        "code": "STATENH",
+        "description": "NHGIS Integrated State Code"
+    },
+    {
+        "year": 2020,
+        "code": "COUNTY",
+        "description": "NHGIS Integrated County Name"
+    },
+    {
+        "year": 2020,
+        "code": "COUNTYFP",
+        "description": "FIPS County Code"
+    },
+    {
+        "year": 2020,
+        "code": "COUNTYNH",
+        "description": "NHGIS Integrated County Code"
+    },
+    {
+        "year": 2020,
+        "code": "NAME",
+        "description": "Area Name, 2018-2022"
+    },
+    {
+        "year": 2020,
+        "code": "AV0AA225",
+        "description": "Persons: Total"
+    },
+    {
+        "year": 2020,
+        "code": "AV1AA225",
+        "description": "Persons: Male"
+    },
+    {
+        "year": 2020,
+        "code": "AV1AB225",
+        "description": "Persons: Female"
+    },
+    {
+        "year": 2020,
+        "code": "A35AA225",
+        "description": "Persons: Hispanic or Latino"
+    },
+    {
+        "year": 2020,
+        "code": "AR5AA225",
+        "description": "Households: Total"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AA225",
+        "description": "Persons: Male ~ Never married"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AB225",
+        "description": "Persons: Male ~ Now married"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AC225",
+        "description": "Persons: Male ~ Now married--Not separated"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AD225",
+        "description": "Persons: Male ~ Now married--Separated"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AE225",
+        "description": "Persons: Male ~ Widowed"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AF225",
+        "description": "Persons: Male ~ Divorced"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AG225",
+        "description": "Persons: Female ~ Never married"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AH225",
+        "description": "Persons: Female ~ Now married"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AI225",
+        "description": "Persons: Female ~ Now married--Not separated"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AJ225",
+        "description": "Persons: Female ~ Now married--Separated"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AK225",
+        "description": "Persons: Female ~ Widowed"
+    },
+    {
+        "year": 2020,
+        "code": "BL1AL225",
+        "description": "Persons: Female ~ Divorced"
+    },
+    {
+        "year": 2020,
+        "code": "AT5AA225",
+        "description": "Persons: Native"
+    },
+    {
+        "year": 2020,
+        "code": "AT5AB225",
+        "description": "Persons: Foreign born"
+    },
+    {
+        "year": 2020,
+        "code": "B87AA225",
+        "description": "Persons: 18 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B87AB225",
+        "description": "Persons: 18 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B87AC225",
+        "description": "Persons: 18 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B87AD225",
+        "description": "Persons: 18 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B87AE225",
+        "description": "Persons: 18 years and over ~ Associate degree"
+    },
+    {
+        "year": 2020,
+        "code": "B87AF225",
+        "description": "Persons: 18 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B87AG225",
+        "description": "Persons: 18 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AA225",
+        "description": "Persons: Male ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91AB225",
+        "description": "Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91AC225",
+        "description": "Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91AD225",
+        "description": "Persons: Male ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AE225",
+        "description": "Persons: Male ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AF225",
+        "description": "Persons: Male ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AG225",
+        "description": "Persons: Male ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AH225",
+        "description": "Persons: Male ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91AI225",
+        "description": "Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91AJ225",
+        "description": "Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91AK225",
+        "description": "Persons: Male ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AL225",
+        "description": "Persons: Male ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AM225",
+        "description": "Persons: Male ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AN225",
+        "description": "Persons: Male ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AO225",
+        "description": "Persons: Male ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91AP225",
+        "description": "Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91AQ225",
+        "description": "Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91AR225",
+        "description": "Persons: Male ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AS225",
+        "description": "Persons: Male ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AT225",
+        "description": "Persons: Male ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AU225",
+        "description": "Persons: Male ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AV225",
+        "description": "Persons: Male ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91AW225",
+        "description": "Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91AX225",
+        "description": "Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91AY225",
+        "description": "Persons: Male ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91AZ225",
+        "description": "Persons: Male ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BA225",
+        "description": "Persons: Male ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BB225",
+        "description": "Persons: Male ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BC225",
+        "description": "Persons: Male ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91BD225",
+        "description": "Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91BE225",
+        "description": "Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91BF225",
+        "description": "Persons: Male ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BG225",
+        "description": "Persons: Male ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BH225",
+        "description": "Persons: Male ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BI225",
+        "description": "Persons: Male ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BJ225",
+        "description": "Persons: Female ~ 18 to 24 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91BK225",
+        "description": "Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91BL225",
+        "description": "Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91BM225",
+        "description": "Persons: Female ~ 18 to 24 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BN225",
+        "description": "Persons: Female ~ 18 to 24 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BO225",
+        "description": "Persons: Female ~ 18 to 24 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BP225",
+        "description": "Persons: Female ~ 18 to 24 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BQ225",
+        "description": "Persons: Female ~ 25 to 34 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91BR225",
+        "description": "Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91BS225",
+        "description": "Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91BT225",
+        "description": "Persons: Female ~ 25 to 34 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BU225",
+        "description": "Persons: Female ~ 25 to 34 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BV225",
+        "description": "Persons: Female ~ 25 to 34 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BW225",
+        "description": "Persons: Female ~ 25 to 34 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91BX225",
+        "description": "Persons: Female ~ 35 to 44 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91BY225",
+        "description": "Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91BZ225",
+        "description": "Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91CA225",
+        "description": "Persons: Female ~ 35 to 44 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CB225",
+        "description": "Persons: Female ~ 35 to 44 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CC225",
+        "description": "Persons: Female ~ 35 to 44 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CD225",
+        "description": "Persons: Female ~ 35 to 44 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CE225",
+        "description": "Persons: Female ~ 45 to 64 years ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91CF225",
+        "description": "Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91CG225",
+        "description": "Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91CH225",
+        "description": "Persons: Female ~ 45 to 64 years ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CI225",
+        "description": "Persons: Female ~ 45 to 64 years ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CJ225",
+        "description": "Persons: Female ~ 45 to 64 years ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CK225",
+        "description": "Persons: Female ~ 45 to 64 years ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CL225",
+        "description": "Persons: Female ~ 65 years and over ~ Less than 9th grade"
+    },
+    {
+        "year": 2020,
+        "code": "B91CM225",
+        "description": "Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma"
+    },
+    {
+        "year": 2020,
+        "code": "B91CN225",
+        "description": "Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative"
+    },
+    {
+        "year": 2020,
+        "code": "B91CO225",
+        "description": "Persons: Female ~ 65 years and over ~ Some college, no degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CP225",
+        "description": "Persons: Female ~ 65 years and over ~ Associate's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CQ225",
+        "description": "Persons: Female ~ 65 years and over ~ Bachelor's degree"
+    },
+    {
+        "year": 2020,
+        "code": "B91CR225",
+        "description": "Persons: Female ~ 65 years and over ~ Graduate or professional degree"
+    },
+    {
+        "year": 2020,
+        "code": "B84AA225",
+        "description": "Persons: 16 years and over ~ In labor force"
+    },
+    {
+        "year": 2020,
+        "code": "B84AB225",
+        "description": "Persons: 16 years and over ~ In labor force--In Armed Forces"
+    },
+    {
+        "year": 2020,
+        "code": "B84AC225",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian"
+    },
+    {
+        "year": 2020,
+        "code": "B84AD225",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Employed"
+    },
+    {
+        "year": 2020,
+        "code": "B84AE225",
+        "description": "Persons: 16 years and over ~ In labor force--Civilian--Unemployed"
+    },
+    {
+        "year": 2020,
+        "code": "B84AF225",
+        "description": "Persons: 16 years and over ~ Not in labor force"
+    },
+    {
+        "year": 2020,
+        "code": "BS7AA225",
+        "description": "Households: Income less than $10,000"
+    },
+    {
+        "year": 2020,
+        "code": "BS7AB225",
+        "description": "Households: Income $10,000 to $14,999"
+    },
+    {
+        "year": 2020,
+        "code": "BS7AC225",
+        "description": "Households: Income $15,000 to $24,999"
+    },
+    {
+        "year": 2020,
+        "code": "BS7AD225",
+        "description": "Households: Income $25,000 or more"
+    },
+    {
+        "year": 2020,
+        "code": "B79AA225",
+        "description": "Median income in previous year: Households"
+    },
+    {
+        "year": 2020,
+        "code": "BD5AA225",
+        "description": "Per capita income in previous year"
+    },
+    {
+        "year": 2020,
+        "code": "CL6AA225",
+        "description": "Persons: Poverty status is determined ~ Income below poverty level"
+    }
+]

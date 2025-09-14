@@ -1,0 +1,4342 @@
+[
+  {
+    "year": 2008,
+    "code": "JVOE001",
+    "description": "Total"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE002",
+    "description": "Male"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE017",
+    "description": "Female"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVOE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE001",
+    "description": "Total"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE002",
+    "description": "Male"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE017",
+    "description": "Female"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVPE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE001",
+    "description": "Total"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE002",
+    "description": "Male"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE017",
+    "description": "Female"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVQE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE001",
+    "description": "Total"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE002",
+    "description": "Male"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE017",
+    "description": "Female"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVRE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE001",
+    "description": "Total"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE002",
+    "description": "Male"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE017",
+    "description": "Female"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVSE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE001",
+    "description": "Total"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE002",
+    "description": "Male"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE017",
+    "description": "Female"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVTE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE001",
+    "description": "Total"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE002",
+    "description": "Male"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE017",
+    "description": "Female"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2008,
+    "code": "JVUE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E001",
+    "description": "Total"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E002",
+    "description": "Male"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E017",
+    "description": "Female"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK1E031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E001",
+    "description": "Total"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E002",
+    "description": "Male"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E017",
+    "description": "Female"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK2E031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E001",
+    "description": "Total"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E002",
+    "description": "Male"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E017",
+    "description": "Female"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK3E031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E001",
+    "description": "Total"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E002",
+    "description": "Male"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E017",
+    "description": "Female"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK4E031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E001",
+    "description": "Total"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E002",
+    "description": "Male"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E017",
+    "description": "Female"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK5E031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E001",
+    "description": "Total"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E002",
+    "description": "Male"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E017",
+    "description": "Female"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK6E031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E001",
+    "description": "Total"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E002",
+    "description": "Male"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E017",
+    "description": "Female"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2012,
+    "code": "ABK7E031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE001",
+    "description": "Total"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE002",
+    "description": "Male"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE017",
+    "description": "Female"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6OE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE001",
+    "description": "Total"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE002",
+    "description": "Male"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE017",
+    "description": "Female"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6PE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE001",
+    "description": "Total"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE002",
+    "description": "Male"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE017",
+    "description": "Female"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6QE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE001",
+    "description": "Total"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE002",
+    "description": "Male"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE017",
+    "description": "Female"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6RE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE001",
+    "description": "Total"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE002",
+    "description": "Male"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE017",
+    "description": "Female"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6SE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE001",
+    "description": "Total"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE002",
+    "description": "Male"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE017",
+    "description": "Female"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6TE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE001",
+    "description": "Total"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE002",
+    "description": "Male"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE017",
+    "description": "Female"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2016,
+    "code": "AJ6UE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE001",
+    "description": "Total"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE002",
+    "description": "Male"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE017",
+    "description": "Female"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYHE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE001",
+    "description": "Total"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE002",
+    "description": "Male"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE017",
+    "description": "Female"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYIE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE001",
+    "description": "Total"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE002",
+    "description": "Male"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE017",
+    "description": "Female"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYJE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE001",
+    "description": "Total"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE002",
+    "description": "Male"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE017",
+    "description": "Female"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYKE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE001",
+    "description": "Total"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE002",
+    "description": "Male"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE017",
+    "description": "Female"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYLE031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME001",
+    "description": "Total"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME002",
+    "description": "Male"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME017",
+    "description": "Female"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYME031",
+    "description": "Female: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE001",
+    "description": "Total"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE002",
+    "description": "Male"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE003",
+    "description": "Male: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE004",
+    "description": "Male: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE005",
+    "description": "Male: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE006",
+    "description": "Male: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE007",
+    "description": "Male: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE008",
+    "description": "Male: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE009",
+    "description": "Male: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE010",
+    "description": "Male: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE011",
+    "description": "Male: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE012",
+    "description": "Male: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE013",
+    "description": "Male: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE014",
+    "description": "Male: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE015",
+    "description": "Male: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE016",
+    "description": "Male: 85 years and over"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE017",
+    "description": "Female"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE018",
+    "description": "Female: Under 5 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE019",
+    "description": "Female: 5 to 9 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE020",
+    "description": "Female: 10 to 14 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE021",
+    "description": "Female: 15 to 17 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE022",
+    "description": "Female: 18 and 19 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE023",
+    "description": "Female: 20 to 24 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE024",
+    "description": "Female: 25 to 29 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE025",
+    "description": "Female: 30 to 34 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE026",
+    "description": "Female: 35 to 44 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE027",
+    "description": "Female: 45 to 54 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE028",
+    "description": "Female: 55 to 64 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE029",
+    "description": "Female: 65 to 74 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE030",
+    "description": "Female: 75 to 84 years"
+  },
+  {
+    "year": 2020,
+    "code": "AQYNE031",
+    "description": "Female: 85 years and over"
+  }
+]

@@ -25,7 +25,11 @@ class WeightedStandardScaler:
 
     def fit(self, X: np.ndarray, weights: np.ndarray):
         """Fits the scaler to the data X using sample weights."""
-        w = weights.reshape(-1, 1)
+        # Allow weights to be (n_samples,) or (n_samples, n_features)
+        if weights.ndim == 1:
+            w = weights.reshape(-1, 1)
+        else:
+            w = weights
         self.mean_ = (X * w).sum(axis=0) / w.sum(axis=0)
         var = (w * (X - self.mean_)**2).sum(axis=0) / w.sum(axis=0)
         self.scale_ = np.sqrt(var)
