@@ -164,7 +164,7 @@ class DataHandler:
     >>>     # training/validation loop goes here
     """
 
-    def __init__(self, test_year: int = 2020, features_to_drop=['P(C)']):
+    def __init__(self, test_year: int = 2020, features_to_drop=['P(C)', 'log_odds_dem_rep']):
         """Initializes the DataHandler, creates directories to store results, and determines input/output dimensions."""
         # --- Years for CV, Training, Testing ---
         self.years = [2008, 2012, 2016, 2020]
@@ -179,15 +179,22 @@ class DataHandler:
         self._make_dirs()
 
         # --- Load full dataset ---
-        self.raw_data = pd.read_csv(os.path.join(self.data_dir, 'final_dataset.csv'))
+        self.raw_data = pd.read_csv(os.path.join(self.data_dir, 'probability_dataset.csv'))
 
         # --- Feature and Target Definitions ---
-        with open(os.path.join(self.data_dir, 'variables.json'), 'r') as f:
-            vars = json.load(f)
-        self.idx = vars['idx']
-        self.targets = vars['targets']
-        feature_keys = set(vars.keys()) - set(['targets', 'years', 'idx'])
-        self.features = sorted([item for key in feature_keys for item in vars[key] if item not in features_to_drop])
+        # Identifier and target columns
+        self.idx = ['gisjoin', 'year', 'state', 'county']
+        self.targets = [
+            'P(democrat_voter|C)',
+            'P(republican_voter|C)',
+            'P(other_voter|C)',
+            'P(non_voter|C)'
+        ]
+
+        # Feature columns
+        all_columns = self.raw_data.columns.tolist()
+        non_feature_cols = self.idx + self.targets + features_to_drop
+        self.features = [col for col in all_columns if col not in non_feature_cols]
         self.n_features = len(self.features)
         
         # --- Fitted scalers for CV and final training ---
@@ -215,7 +222,7 @@ class DataHandler:
             os.makedirs(path, exist_ok=True)
 
         # Store the paths as attributes
-        self.data_dir = os.path.join(repo_root, "data")
+        self.data_dir = os.path.join(repo_root, "data/processed_data")
         self.results_dir = results_dir
         self.models_dir = os.path.join(results_dir, "models")
         self.optuna_dir = os.path.join(results_dir, "optuna")
@@ -382,7 +389,7 @@ class DataHandler:
         
         elif task == 'test':
             test_data = self.get_ridge_data('test', n_components)
-            return self._create_dmatrix(test_data, only_X=True)
+            return self._create_dmatrix(test_data, only_X=False)
         
         else:
             raise ValueError("Invalid task specified. Use 'cv', 'train', or 'test'.")

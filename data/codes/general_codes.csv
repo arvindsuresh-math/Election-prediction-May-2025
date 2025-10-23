@@ -1,0 +1,108 @@
+table,description,code_2008,code_2012,code_2016,code_2020,col_name
+Total Population,Persons: Total,AV0AA105,AV0AA145,AV0AA185,AV0AA225,population
+Persons by Sex [2],Persons: Female,AV1AB105,AV1AB145,AV1AB185,AV1AB225,female
+Persons by Sex [2],Persons: Male,AV1AA105,AV1AA145,AV1AA185,AV1AA225,male
+Persons of Hispanic or Latino Origin,Persons: Hispanic or Latino,A35AA105,A35AA145,A35AA185,A35AA225,hispanic
+Total Households,Households: Total,AR5AA105,AR5AA145,AR5AA185,AR5AA225,households
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Divorced,BL1AL105,BL1AL145,BL1AL185,BL1AL225,female_divorced
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Never married,BL1AG105,BL1AG145,BL1AG185,BL1AG225,female_never_married
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Now married--Not separated,BL1AI105,BL1AI145,BL1AI185,BL1AI225,female_married
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Now married--Separated,BL1AJ105,BL1AJ145,BL1AJ185,BL1AJ225,female_separated
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Widowed,BL1AK105,BL1AK145,BL1AK185,BL1AK225,female_widowed
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Divorced,BL1AF105,BL1AF145,BL1AF185,BL1AF225,male_divorced
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Never married,BL1AA105,BL1AA145,BL1AA185,BL1AA225,male_never_married
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Now married--Not separated,BL1AC105,BL1AC145,BL1AC185,BL1AC225,male_married
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Now married--Separated,BL1AD105,BL1AD145,BL1AD185,BL1AD225,male_separated
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Widowed,BL1AE105,BL1AE145,BL1AE185,BL1AE225,male_widowed
+Persons by Nativity [2],Persons: Foreign born,AT5AB105,AT5AB145,AT5AB185,AT5AB225,non_native
+Persons by Nativity [2],Persons: Native,AT5AA105,AT5AA145,AT5AA185,AT5AA225,native
+Persons 18 Years and Over by Educational Attainment [7],"Persons: 18 years and over ~ 9th to 12th grade, no diploma",B87AB105,B87AB145,B87AB185,B87AB225,18_plus_hs_no_diploma
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Associate degree,B87AE105,B87AE145,B87AE185,B87AE225,18_plus_associate
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Bachelor's degree,B87AF105,B87AF145,B87AF185,B87AF225,18_plus_bachelors
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Graduate or professional degree,B87AG105,B87AG145,B87AG185,B87AG225,18_plus_graduate
+Persons 18 Years and Over by Educational Attainment [7],"Persons: 18 years and over ~ High school graduate, GED, or alternative",B87AC105,B87AC145,B87AC185,B87AC225,18_plus_ged
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Less than 9th grade,B87AA105,B87AA145,B87AA185,B87AA225,18_plus_less_than_9th
+Persons 18 Years and Over by Educational Attainment [7],"Persons: 18 years and over ~ Some college, no degree",B87AD105,B87AD145,B87AD185,B87AD225,18_plus_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma",B91BK105,B91BK145,B91BK185,B91BK225,female_18_to_24_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Associate's degree,B91BN105,B91BN145,B91BN185,B91BN225,female_18_to_24_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Bachelor's degree,B91BO105,B91BO145,B91BO185,B91BO225,female_18_to_24_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Graduate or professional degree,B91BP105,B91BP145,B91BP185,B91BP225,female_18_to_24_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative",B91BL105,B91BL145,B91BL185,B91BL225,female_18_to_24_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Less than 9th grade,B91BJ105,B91BJ145,B91BJ185,B91BJ225,female_18_to_24_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 18 to 24 years ~ Some college, no degree",B91BM105,B91BM145,B91BM185,B91BM225,female_18_to_24_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma",B91BR105,B91BR145,B91BR185,B91BR225,female_25_to_34_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Associate's degree,B91BU105,B91BU145,B91BU185,B91BU225,female_25_to_34_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Bachelor's degree,B91BV105,B91BV145,B91BV185,B91BV225,female_25_to_34_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Graduate or professional degree,B91BW105,B91BW145,B91BW185,B91BW225,female_25_to_34_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative",B91BS105,B91BS145,B91BS185,B91BS225,female_25_to_34_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Less than 9th grade,B91BQ105,B91BQ145,B91BQ185,B91BQ225,female_25_to_34_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 25 to 34 years ~ Some college, no degree",B91BT105,B91BT145,B91BT185,B91BT225,female_25_to_34_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma",B91BY105,B91BY145,B91BY185,B91BY225,female_35_to_44_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Associate's degree,B91CB105,B91CB145,B91CB185,B91CB225,female_35_to_44_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Bachelor's degree,B91CC105,B91CC145,B91CC185,B91CC225,female_35_to_44_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Graduate or professional degree,B91CD105,B91CD145,B91CD185,B91CD225,female_35_to_44_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative",B91BZ105,B91BZ145,B91BZ185,B91BZ225,female_35_to_44_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Less than 9th grade,B91BX105,B91BX145,B91BX185,B91BX225,female_35_to_44_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 35 to 44 years ~ Some college, no degree",B91CA105,B91CA145,B91CA185,B91CA225,female_35_to_44_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma",B91CF105,B91CF145,B91CF185,B91CF225,female_45_to_64_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Associate's degree,B91CI105,B91CI145,B91CI185,B91CI225,female_45_to_64_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Bachelor's degree,B91CJ105,B91CJ145,B91CJ185,B91CJ225,female_45_to_64_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Graduate or professional degree,B91CK105,B91CK145,B91CK185,B91CK225,female_45_to_64_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative",B91CG105,B91CG145,B91CG185,B91CG225,female_45_to_64_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Less than 9th grade,B91CE105,B91CE145,B91CE185,B91CE225,female_45_to_64_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 45 to 64 years ~ Some college, no degree",B91CH105,B91CH145,B91CH185,B91CH225,female_45_to_64_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma",B91CM105,B91CM145,B91CM185,B91CM225,female_65_plus_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Associate's degree,B91CP105,B91CP145,B91CP185,B91CP225,female_65_plus_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Bachelor's degree,B91CQ105,B91CQ145,B91CQ185,B91CQ225,female_65_plus_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Graduate or professional degree,B91CR105,B91CR145,B91CR185,B91CR225,female_65_plus_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative",B91CN105,B91CN145,B91CN185,B91CN225,female_65_plus_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Less than 9th grade,B91CL105,B91CL145,B91CL185,B91CL225,female_65_plus_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 65 years and over ~ Some college, no degree",B91CO105,B91CO145,B91CO185,B91CO225,female_65_plus_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma",B91AB105,B91AB145,B91AB185,B91AB225,male_18_to_24_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Associate's degree,B91AE105,B91AE145,B91AE185,B91AE225,male_18_to_24_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Bachelor's degree,B91AF105,B91AF145,B91AF185,B91AF225,male_18_to_24_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Graduate or professional degree,B91AG105,B91AG145,B91AG185,B91AG225,male_18_to_24_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative",B91AC105,B91AC145,B91AC185,B91AC225,male_18_to_24_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Less than 9th grade,B91AA105,B91AA145,B91AA185,B91AA225,male_18_to_24_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 18 to 24 years ~ Some college, no degree",B91AD105,B91AD145,B91AD185,B91AD225,male_18_to_24_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma",B91AI105,B91AI145,B91AI185,B91AI225,male_25_to_34_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Associate's degree,B91AL105,B91AL145,B91AL185,B91AL225,male_25_to_34_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Bachelor's degree,B91AM105,B91AM145,B91AM185,B91AM225,male_25_to_34_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Graduate or professional degree,B91AN105,B91AN145,B91AN185,B91AN225,male_25_to_34_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative",B91AJ105,B91AJ145,B91AJ185,B91AJ225,male_25_to_34_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Less than 9th grade,B91AH105,B91AH145,B91AH185,B91AH225,male_25_to_34_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 25 to 34 years ~ Some college, no degree",B91AK105,B91AK145,B91AK185,B91AK225,male_25_to_34_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma",B91AP105,B91AP145,B91AP185,B91AP225,male_35_to_44_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Associate's degree,B91AS105,B91AS145,B91AS185,B91AS225,male_35_to_44_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Bachelor's degree,B91AT105,B91AT145,B91AT185,B91AT225,male_35_to_44_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Graduate or professional degree,B91AU105,B91AU145,B91AU185,B91AU225,male_35_to_44_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative",B91AQ105,B91AQ145,B91AQ185,B91AQ225,male_35_to_44_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Less than 9th grade,B91AO105,B91AO145,B91AO185,B91AO225,male_35_to_44_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 35 to 44 years ~ Some college, no degree",B91AR105,B91AR145,B91AR185,B91AR225,male_35_to_44_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma",B91AW105,B91AW145,B91AW185,B91AW225,male_45_to_64_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Associate's degree,B91AZ105,B91AZ145,B91AZ185,B91AZ225,male_45_to_64_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Bachelor's degree,B91BA105,B91BA145,B91BA185,B91BA225,male_45_to_64_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Graduate or professional degree,B91BB105,B91BB145,B91BB185,B91BB225,male_45_to_64_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative",B91AX105,B91AX145,B91AX185,B91AX225,male_45_to_64_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Less than 9th grade,B91AV105,B91AV145,B91AV185,B91AV225,male_45_to_64_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 45 to 64 years ~ Some college, no degree",B91AY105,B91AY145,B91AY185,B91AY225,male_45_to_64_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma",B91BD105,B91BD145,B91BD185,B91BD225,male_65_plus_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Associate's degree,B91BG105,B91BG145,B91BG185,B91BG225,male_65_plus_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Bachelor's degree,B91BH105,B91BH145,B91BH185,B91BH225,male_65_plus_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Graduate or professional degree,B91BI105,B91BI145,B91BI185,B91BI225,male_65_plus_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative",B91BE105,B91BE145,B91BE185,B91BE225,male_65_plus_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Less than 9th grade,B91BC105,B91BC145,B91BC185,B91BC225,male_65_plus_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 65 years and over ~ Some college, no degree",B91BF105,B91BF145,B91BF185,B91BF225,male_65_plus_some_college
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force,B84AA105,B84AA145,B84AA185,B84AA225,labor_16_plus_in_force
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--Civilian,B84AC105,B84AC145,B84AC185,B84AC225,labor_16_plus_civilian
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--Civilian--Employed,B84AD105,B84AD145,B84AD185,B84AD225,labor_16_plus_employed
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--Civilian--Unemployed,B84AE105,B84AE145,B84AE185,B84AE225,labor_16_plus_unemployed
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--In Armed Forces,B84AB105,B84AB145,B84AB185,B84AB225,labor_16_plus_armed_forces
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ Not in labor force,B84AF105,B84AF145,B84AF185,B84AF225,labor_16_plus_not_in_force
+Households by Income* in Previous Year [4],"Households: Income $10,000 to $14,999",BS7AB105,BS7AB145,BS7AB185,BS7AB225,income_10k_to_15k
+Households by Income* in Previous Year [4],"Households: Income $15,000 to $24,999",BS7AC105,BS7AC145,BS7AC185,BS7AC225,income_15k_to_25k
+Households by Income* in Previous Year [4],"Households: Income $25,000 or more",BS7AD105,BS7AD145,BS7AD185,BS7AD225,income_25k_plus
+Households by Income* in Previous Year [4],"Households: Income less than $10,000",BS7AA105,BS7AA145,BS7AA185,BS7AA225,income_less_than_10k
+Median Household Income in Previous Year,Median income in previous year: Households,B79AA105,B79AA145,B79AA185,B79AA225,median_household_income
+Per Capita Income in Previous Year,Per capita income in previous year,BD5AA105,BD5AA145,BD5AA185,BD5AA225,per_capita_income
+Persons* below Poverty Level in Previous Year,Persons: Poverty status is determined ~ Income below poverty level,CL6AA105,CL6AA145,CL6AA185,CL6AA225,poverty

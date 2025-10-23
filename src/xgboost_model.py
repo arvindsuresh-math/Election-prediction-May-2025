@@ -15,23 +15,49 @@ def softmax(x: np.ndarray):
     e_x = np.exp(x - np.max(x, axis=1, keepdims=True))
     return e_x / np.sum(e_x, axis=1, keepdims=True)
 
+# def weighted_softprob_obj(preds: np.ndarray, dtrain: xgb.DMatrix):
+#     """Custom XGBoost objective for weighted cross-entropy with soft labels.
+#     """
+#     # Get true labels (soft probabilities) and weights
+#     n_samples = preds.shape[0]
+#     labels = dtrain.get_label().reshape((n_samples, 4))
+
+#     # Calculate predicted probabas
+#     tots = labels.sum(axis=1, keepdims=True) # P(18plus) per sample
+#     probs = softmax(preds)
+#     probs = probs * tots 
+
+#     # Calculate Gradient: (q - p)
+#     grad = probs - labels
+
+#     # Calculate Hessian (diagonal approximation): tots * q * (1 - q)
+#     hess = tots * probs * (1 - probs)
+#     hess = np.maximum(hess, 1e-12)
+
+#     return (grad,hess)
+
 def weighted_softprob_obj(preds: np.ndarray, dtrain: xgb.DMatrix):
-    """Custom XGBoost objective for weighted cross-entropy with soft labels.
     """
-    # Get true labels (soft probabilities) and weights
+    Static custom XGBoost objective for weighted cross-entropy with soft labels.
+    """
+    # 1. Get true labels (soft probabilities) and weights
     n_samples = preds.shape[0]
     labels = dtrain.get_label().reshape((n_samples, 4))
+    weights = dtrain.get_weight().reshape((n_samples, 1))
+    weights = weights / weights.sum() # Normalize weights
 
-    # Calculate predicted probabas
+    # 3. Calculate predicted probabas
     tots = labels.sum(axis=1, keepdims=True) # P(18plus) per sample
     probs = softmax(preds)
     probs = probs * tots 
 
-    # Calculate Gradient: (q - p)
+    # 4. Calculate Gradient: (q - p)
     grad = probs - labels
 
-    # Calculate Hessian (diagonal approximation): tots * q * (1 - q)
-    hess = tots * probs * (1 - probs)
+    # 5. Calculate Hessian (diagonal approximation): w * q * (1 - q)
+    # hess = weights * probs * (tots - probs)
+    # hess = np.maximum(hess, 1e-12) # Ensure non-negative hessian
+    hess = probs * (1 - probs)
     hess = np.maximum(hess, 1e-12)
 
     return (grad,hess)
@@ -45,9 +71,7 @@ def weighted_cross_entropy_eval(preds: np.ndarray, dtrain: xgb.DMatrix):
     weights = weights / weights.sum() # Normalize weights
 
     # Calculate predicted probas
-    tots = labels.sum(axis=1, keepdims=True) # Total votes per sample
     probs = softmax(preds)
-    probs = probs * tots
 
     # Calculate weighted cross-entropy per sample
     epsilon = 1e-9
@@ -261,6 +285,7 @@ class XGBoostModel:
             params=final_train_params,
             dtrain=dtrain,
             num_boost_round=num_boost_round, 
+            obj=weighted_softprob_obj,
             custom_metric=weighted_cross_entropy_eval, 
             maximize=False
             )
@@ -290,10 +315,9 @@ class XGBoostModel:
         dtest = self.dh.get_xgb_data('test', self.best_params.get('n_components', None)) 
         X_test, y_test, _ = self.dh.get_ridge_data('test', self.best_params.get('n_components', None)) 
         n_samples = X_test.shape[0]
-        y_tots = y_test.sum(axis=1, keepdims=True) # P(18plus|C), shape [n_samples, 1]
 
         y_pred = self.model.predict(dtest).reshape((n_samples, 4))
-        y_pred = softmax(y_pred) * y_tots
+        y_pred = softmax(y_pred)
 
         pred_df = pd.DataFrame(y_pred, columns=self.dh.targets)
         pred_df.to_csv(self.pred_path, index=False)

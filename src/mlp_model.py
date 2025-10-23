@@ -58,8 +58,6 @@ def weighted_cross_entropy_loss(y_pred: torch.Tensor,
         wts = wts.unsqueeze(0)
 
     # Scale y_pred by P(18plus) and clamp to avoid log(0)
-    tots = y_true.sum(dim=-1, keepdim=True) # Shape: (K, B, 1)
-    y_pred = y_pred * tots
     y_pred = torch.clamp(y_pred, 1e-10, 1. - 1e-10) 
 
     # Tensors of shape (K, B, 1)
@@ -424,17 +422,14 @@ class MLPModel:
             self.load_model()
         
         X_test, y_test = self.dh.get_mlp_data('test', 1, self.best_params.get('n_components', None)) 
-        y_tots = y_test.sum(axis = 1, keepdims=True)
 
         X_test = X_test.to(DEVICE)
         y_test = y_test.to(DEVICE)
-        y_tots = y_tots.to(DEVICE)
         self.model.to(DEVICE)
 
         self.model.eval()
         with torch.no_grad():
             y_pred = self.model(X_test)
-            y_pred = y_pred * y_tots
 
         y_pred = y_pred.cpu().numpy()
         pred_df = pd.DataFrame(y_pred, columns=self.dh.targets)

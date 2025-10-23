@@ -1,0 +1,325 @@
+table,description,code_2008,code_2012,code_2016,code_2020,col_name
+Total Population,Persons: Total,AV0AA105,AV0AA145,AV0AA185,AV0AA225,population
+Persons by Sex [2],Persons: Female,AV1AB105,AV1AB145,AV1AB185,AV1AB225,female
+Persons by Sex [2],Persons: Male,AV1AA105,AV1AA145,AV1AA185,AV1AA225,male
+Persons of Hispanic or Latino Origin,Persons: Hispanic or Latino,A35AA105,A35AA145,A35AA185,A35AA225,hispanic
+Total Households,Households: Total,AR5AA105,AR5AA145,AR5AA185,AR5AA225,households
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Divorced,BL1AL105,BL1AL145,BL1AL185,BL1AL225,female_divorced
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Never married,BL1AG105,BL1AG145,BL1AG185,BL1AG225,female_single
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Now married--Not separated,BL1AI105,BL1AI145,BL1AI185,BL1AI225,female_married
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Now married--Separated,BL1AJ105,BL1AJ145,BL1AJ185,BL1AJ225,female_separated
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Female ~ Widowed,BL1AK105,BL1AK145,BL1AK185,BL1AK225,female_widowed
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Divorced,BL1AF105,BL1AF145,BL1AF185,BL1AF225,male_divorced
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Never married,BL1AA105,BL1AA145,BL1AA185,BL1AA225,male_single
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Now married--Not separated,BL1AC105,BL1AC145,BL1AC185,BL1AC225,male_married
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Now married--Separated,BL1AD105,BL1AD145,BL1AD185,BL1AD225,male_separated
+Persons of Marrying Age* by Sex [2] by Marital Status [6],Persons: Male ~ Widowed,BL1AE105,BL1AE145,BL1AE185,BL1AE225,male_widowed
+Persons by Nativity [2],Persons: Foreign born,AT5AB105,AT5AB145,AT5AB185,AT5AB225,nativity_foreign_born
+Persons by Nativity [2],Persons: Native,AT5AA105,AT5AA145,AT5AA185,AT5AA225,nativity_native
+Persons 18 Years and Over by Educational Attainment [7],"Persons: 18 years and over ~ 9th to 12th grade, no diploma",B87AB105,B87AB145,B87AB185,B87AB225,18_plus_hs_no_diploma
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Associate degree,B87AE105,B87AE145,B87AE185,B87AE225,18_plus_associate
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Bachelor's degree,B87AF105,B87AF145,B87AF185,B87AF225,18_plus_bachelors
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Graduate or professional degree,B87AG105,B87AG145,B87AG185,B87AG225,18_plus_graduate
+Persons 18 Years and Over by Educational Attainment [7],"Persons: 18 years and over ~ High school graduate, GED, or alternative",B87AC105,B87AC145,B87AC185,B87AC225,18_plus_ged
+Persons 18 Years and Over by Educational Attainment [7],Persons: 18 years and over ~ Less than 9th grade,B87AA105,B87AA145,B87AA185,B87AA225,18_plus_less_than_9th
+Persons 18 Years and Over by Educational Attainment [7],"Persons: 18 years and over ~ Some college, no degree",B87AD105,B87AD145,B87AD185,B87AD225,18_plus_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 18 to 24 years ~ 9th to 12th grade, no diploma",B91BK105,B91BK145,B91BK185,B91BK225,female_18_to_24_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Associate's degree,B91BN105,B91BN145,B91BN185,B91BN225,female_18_to_24_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Bachelor's degree,B91BO105,B91BO145,B91BO185,B91BO225,female_18_to_24_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Graduate or professional degree,B91BP105,B91BP145,B91BP185,B91BP225,female_18_to_24_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 18 to 24 years ~ High school graduate, GED, or alternative",B91BL105,B91BL145,B91BL185,B91BL225,female_18_to_24_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 18 to 24 years ~ Less than 9th grade,B91BJ105,B91BJ145,B91BJ185,B91BJ225,female_18_to_24_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 18 to 24 years ~ Some college, no degree",B91BM105,B91BM145,B91BM185,B91BM225,female_18_to_24_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 25 to 34 years ~ 9th to 12th grade, no diploma",B91BR105,B91BR145,B91BR185,B91BR225,female_25_to_34_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Associate's degree,B91BU105,B91BU145,B91BU185,B91BU225,female_25_to_34_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Bachelor's degree,B91BV105,B91BV145,B91BV185,B91BV225,female_25_to_34_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Graduate or professional degree,B91BW105,B91BW145,B91BW185,B91BW225,female_25_to_34_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 25 to 34 years ~ High school graduate, GED, or alternative",B91BS105,B91BS145,B91BS185,B91BS225,female_25_to_34_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 25 to 34 years ~ Less than 9th grade,B91BQ105,B91BQ145,B91BQ185,B91BQ225,female_25_to_34_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 25 to 34 years ~ Some college, no degree",B91BT105,B91BT145,B91BT185,B91BT225,female_25_to_34_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 35 to 44 years ~ 9th to 12th grade, no diploma",B91BY105,B91BY145,B91BY185,B91BY225,female_35_to_44_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Associate's degree,B91CB105,B91CB145,B91CB185,B91CB225,female_35_to_44_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Bachelor's degree,B91CC105,B91CC145,B91CC185,B91CC225,female_35_to_44_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Graduate or professional degree,B91CD105,B91CD145,B91CD185,B91CD225,female_35_to_44_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 35 to 44 years ~ High school graduate, GED, or alternative",B91BZ105,B91BZ145,B91BZ185,B91BZ225,female_35_to_44_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 35 to 44 years ~ Less than 9th grade,B91BX105,B91BX145,B91BX185,B91BX225,female_35_to_44_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 35 to 44 years ~ Some college, no degree",B91CA105,B91CA145,B91CA185,B91CA225,female_35_to_44_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 45 to 64 years ~ 9th to 12th grade, no diploma",B91CF105,B91CF145,B91CF185,B91CF225,female_45_to_64_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Associate's degree,B91CI105,B91CI145,B91CI185,B91CI225,female_45_to_64_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Bachelor's degree,B91CJ105,B91CJ145,B91CJ185,B91CJ225,female_45_to_64_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Graduate or professional degree,B91CK105,B91CK145,B91CK185,B91CK225,female_45_to_64_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 45 to 64 years ~ High school graduate, GED, or alternative",B91CG105,B91CG145,B91CG185,B91CG225,female_45_to_64_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 45 to 64 years ~ Less than 9th grade,B91CE105,B91CE145,B91CE185,B91CE225,female_45_to_64_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 45 to 64 years ~ Some college, no degree",B91CH105,B91CH145,B91CH185,B91CH225,female_45_to_64_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 65 years and over ~ 9th to 12th grade, no diploma",B91CM105,B91CM145,B91CM185,B91CM225,female_65_plus_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Associate's degree,B91CP105,B91CP145,B91CP185,B91CP225,female_65_plus_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Bachelor's degree,B91CQ105,B91CQ145,B91CQ185,B91CQ225,female_65_plus_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Graduate or professional degree,B91CR105,B91CR145,B91CR185,B91CR225,female_65_plus_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 65 years and over ~ High school graduate, GED, or alternative",B91CN105,B91CN145,B91CN185,B91CN225,female_65_plus_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Female ~ 65 years and over ~ Less than 9th grade,B91CL105,B91CL145,B91CL185,B91CL225,female_65_plus_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Female ~ 65 years and over ~ Some college, no degree",B91CO105,B91CO145,B91CO185,B91CO225,female_65_plus_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 18 to 24 years ~ 9th to 12th grade, no diploma",B91AB105,B91AB145,B91AB185,B91AB225,male_18_to_24_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Associate's degree,B91AE105,B91AE145,B91AE185,B91AE225,male_18_to_24_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Bachelor's degree,B91AF105,B91AF145,B91AF185,B91AF225,male_18_to_24_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Graduate or professional degree,B91AG105,B91AG145,B91AG185,B91AG225,male_18_to_24_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 18 to 24 years ~ High school graduate, GED, or alternative",B91AC105,B91AC145,B91AC185,B91AC225,male_18_to_24_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 18 to 24 years ~ Less than 9th grade,B91AA105,B91AA145,B91AA185,B91AA225,male_18_to_24_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 18 to 24 years ~ Some college, no degree",B91AD105,B91AD145,B91AD185,B91AD225,male_18_to_24_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 25 to 34 years ~ 9th to 12th grade, no diploma",B91AI105,B91AI145,B91AI185,B91AI225,male_25_to_34_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Associate's degree,B91AL105,B91AL145,B91AL185,B91AL225,male_25_to_34_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Bachelor's degree,B91AM105,B91AM145,B91AM185,B91AM225,male_25_to_34_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Graduate or professional degree,B91AN105,B91AN145,B91AN185,B91AN225,male_25_to_34_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 25 to 34 years ~ High school graduate, GED, or alternative",B91AJ105,B91AJ145,B91AJ185,B91AJ225,male_25_to_34_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 25 to 34 years ~ Less than 9th grade,B91AH105,B91AH145,B91AH185,B91AH225,male_25_to_34_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 25 to 34 years ~ Some college, no degree",B91AK105,B91AK145,B91AK185,B91AK225,male_25_to_34_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 35 to 44 years ~ 9th to 12th grade, no diploma",B91AP105,B91AP145,B91AP185,B91AP225,male_35_to_44_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Associate's degree,B91AS105,B91AS145,B91AS185,B91AS225,male_35_to_44_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Bachelor's degree,B91AT105,B91AT145,B91AT185,B91AT225,male_35_to_44_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Graduate or professional degree,B91AU105,B91AU145,B91AU185,B91AU225,male_35_to_44_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 35 to 44 years ~ High school graduate, GED, or alternative",B91AQ105,B91AQ145,B91AQ185,B91AQ225,male_35_to_44_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 35 to 44 years ~ Less than 9th grade,B91AO105,B91AO145,B91AO185,B91AO225,male_35_to_44_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 35 to 44 years ~ Some college, no degree",B91AR105,B91AR145,B91AR185,B91AR225,male_35_to_44_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 45 to 64 years ~ 9th to 12th grade, no diploma",B91AW105,B91AW145,B91AW185,B91AW225,male_45_to_64_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Associate's degree,B91AZ105,B91AZ145,B91AZ185,B91AZ225,male_45_to_64_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Bachelor's degree,B91BA105,B91BA145,B91BA185,B91BA225,male_45_to_64_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Graduate or professional degree,B91BB105,B91BB145,B91BB185,B91BB225,male_45_to_64_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 45 to 64 years ~ High school graduate, GED, or alternative",B91AX105,B91AX145,B91AX185,B91AX225,male_45_to_64_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 45 to 64 years ~ Less than 9th grade,B91AV105,B91AV145,B91AV185,B91AV225,male_45_to_64_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 45 to 64 years ~ Some college, no degree",B91AY105,B91AY145,B91AY185,B91AY225,male_45_to_64_some_college
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 65 years and over ~ 9th to 12th grade, no diploma",B91BD105,B91BD145,B91BD185,B91BD225,male_65_plus_hs_no_diploma
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Associate's degree,B91BG105,B91BG145,B91BG185,B91BG225,male_65_plus_associate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Bachelor's degree,B91BH105,B91BH145,B91BH185,B91BH225,male_65_plus_bachelors
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Graduate or professional degree,B91BI105,B91BI145,B91BI185,B91BI225,male_65_plus_graduate
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 65 years and over ~ High school graduate, GED, or alternative",B91BE105,B91BE145,B91BE185,B91BE225,male_65_plus_ged
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],Persons: Male ~ 65 years and over ~ Less than 9th grade,B91BC105,B91BC145,B91BC185,B91BC225,male_65_plus_less_than_9th
+Persons 18 Years and Over by Sex [2] by Age [5] by Educational Attainment [7],"Persons: Male ~ 65 years and over ~ Some college, no degree",B91BF105,B91BF145,B91BF185,B91BF225,male_65_plus_some_college
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force,B84AA105,B84AA145,B84AA185,B84AA225,labor_16_plus_in_force
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--Civilian,B84AC105,B84AC145,B84AC185,B84AC225,labor_16_plus_civilian
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--Civilian--Employed,B84AD105,B84AD145,B84AD185,B84AD225,labor_16_plus_employed
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--Civilian--Unemployed,B84AE105,B84AE145,B84AE185,B84AE225,labor_16_plus_unemployed
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ In labor force--In Armed Forces,B84AB105,B84AB145,B84AB185,B84AB225,labor_16_plus_armed_forces
+Persons 16 Years and Over by Labor Force and Employment Status [6],Persons: 16 years and over ~ Not in labor force,B84AF105,B84AF145,B84AF185,B84AF225,labor_16_plus_not_in_force
+Households by Income* in Previous Year [4],"Households: Income $10,000 to $14,999",BS7AB105,BS7AB145,BS7AB185,BS7AB225,income_10k_to_15k
+Households by Income* in Previous Year [4],"Households: Income $15,000 to $24,999",BS7AC105,BS7AC145,BS7AC185,BS7AC225,income_15k_to_25k
+Households by Income* in Previous Year [4],"Households: Income $25,000 or more",BS7AD105,BS7AD145,BS7AD185,BS7AD225,income_25k_plus
+Households by Income* in Previous Year [4],"Households: Income less than $10,000",BS7AA105,BS7AA145,BS7AA185,BS7AA225,income_less_than_10k
+Median Household Income in Previous Year,Median income in previous year: Households,B79AA105,B79AA145,B79AA185,B79AA225,median_household_income
+Per Capita Income in Previous Year,Per capita income in previous year,BD5AA105,BD5AA145,BD5AA185,BD5AA225,per_capita_income
+Persons* below Poverty Level in Previous Year,Persons: Poverty status is determined ~ Income below poverty level,CL6AA105,CL6AA145,CL6AA185,CL6AA225,poverty
+White Alone,Total,JVOE001,ABK1E001,AJ6OE001,AQYHE001,white_total
+White Alone,Male,JVOE002,ABK1E002,AJ6OE002,AQYHE002,white_male
+White Alone,Male: Under 5 years,JVOE003,ABK1E003,AJ6OE003,AQYHE003,white_male_under_5
+White Alone,Male: 5 to 9 years,JVOE004,ABK1E004,AJ6OE004,AQYHE004,white_male_5_to_9
+White Alone,Male: 10 to 14 years,JVOE005,ABK1E005,AJ6OE005,AQYHE005,white_male_10_to_14
+White Alone,Male: 15 to 17 years,JVOE006,ABK1E006,AJ6OE006,AQYHE006,white_male_15_to_17
+White Alone,Male: 18 and 19 years,JVOE007,ABK1E007,AJ6OE007,AQYHE007,white_male_18_and_19
+White Alone,Male: 20 to 24 years,JVOE008,ABK1E008,AJ6OE008,AQYHE008,white_male_20_to_24
+White Alone,Male: 25 to 29 years,JVOE009,ABK1E009,AJ6OE009,AQYHE009,white_male_25_to_29
+White Alone,Male: 30 to 34 years,JVOE010,ABK1E010,AJ6OE010,AQYHE010,white_male_30_to_34
+White Alone,Male: 35 to 44 years,JVOE011,ABK1E011,AJ6OE011,AQYHE011,white_male_35_to_44
+White Alone,Male: 45 to 54 years,JVOE012,ABK1E012,AJ6OE012,AQYHE012,white_male_45_to_54
+White Alone,Male: 55 to 64 years,JVOE013,ABK1E013,AJ6OE013,AQYHE013,white_male_55_to_64
+White Alone,Male: 65 to 74 years,JVOE014,ABK1E014,AJ6OE014,AQYHE014,white_male_65_to_74
+White Alone,Male: 75 to 84 years,JVOE015,ABK1E015,AJ6OE015,AQYHE015,white_male_75_to_84
+White Alone,Male: 85 years and over,JVOE016,ABK1E016,AJ6OE016,AQYHE016,white_male_85_plus
+White Alone,Female,JVOE017,ABK1E017,AJ6OE017,AQYHE017,white_female
+White Alone,Female: Under 5 years,JVOE018,ABK1E018,AJ6OE018,AQYHE018,white_female_under_5
+White Alone,Female: 5 to 9 years,JVOE019,ABK1E019,AJ6OE019,AQYHE019,white_female_5_to_9
+White Alone,Female: 10 to 14 years,JVOE020,ABK1E020,AJ6OE020,AQYHE020,white_female_10_to_14
+White Alone,Female: 15 to 17 years,JVOE021,ABK1E021,AJ6OE021,AQYHE021,white_female_15_to_17
+White Alone,Female: 18 and 19 years,JVOE022,ABK1E022,AJ6OE022,AQYHE022,white_female_18_and_19
+White Alone,Female: 20 to 24 years,JVOE023,ABK1E023,AJ6OE023,AQYHE023,white_female_20_to_24
+White Alone,Female: 25 to 29 years,JVOE024,ABK1E024,AJ6OE024,AQYHE024,white_female_25_to_29
+White Alone,Female: 30 to 34 years,JVOE025,ABK1E025,AJ6OE025,AQYHE025,white_female_30_to_34
+White Alone,Female: 35 to 44 years,JVOE026,ABK1E026,AJ6OE026,AQYHE026,white_female_35_to_44
+White Alone,Female: 45 to 54 years,JVOE027,ABK1E027,AJ6OE027,AQYHE027,white_female_45_to_54
+White Alone,Female: 55 to 64 years,JVOE028,ABK1E028,AJ6OE028,AQYHE028,white_female_55_to_64
+White Alone,Female: 65 to 74 years,JVOE029,ABK1E029,AJ6OE029,AQYHE029,white_female_65_to_74
+White Alone,Female: 75 to 84 years,JVOE030,ABK1E030,AJ6OE030,AQYHE030,white_female_75_to_84
+White Alone,Female: 85 years and over,JVOE031,ABK1E031,AJ6OE031,AQYHE031,white_female_85_plus
+Black or African American Alone,Total,JVPE001,ABK2E001,AJ6PE001,AQYIE001,black_total
+Black or African American Alone,Male,JVPE002,ABK2E002,AJ6PE002,AQYIE002,black_male
+Black or African American Alone,Male: Under 5 years,JVPE003,ABK2E003,AJ6PE003,AQYIE003,black_male_under_5
+Black or African American Alone,Male: 5 to 9 years,JVPE004,ABK2E004,AJ6PE004,AQYIE004,black_male_5_to_9
+Black or African American Alone,Male: 10 to 14 years,JVPE005,ABK2E005,AJ6PE005,AQYIE005,black_male_10_to_14
+Black or African American Alone,Male: 15 to 17 years,JVPE006,ABK2E006,AJ6PE006,AQYIE006,black_male_15_to_17
+Black or African American Alone,Male: 18 and 19 years,JVPE007,ABK2E007,AJ6PE007,AQYIE007,black_male_18_and_19
+Black or African American Alone,Male: 20 to 24 years,JVPE008,ABK2E008,AJ6PE008,AQYIE008,black_male_20_to_24
+Black or African American Alone,Male: 25 to 29 years,JVPE009,ABK2E009,AJ6PE009,AQYIE009,black_male_25_to_29
+Black or African American Alone,Male: 30 to 34 years,JVPE010,ABK2E010,AJ6PE010,AQYIE010,black_male_30_to_34
+Black or African American Alone,Male: 35 to 44 years,JVPE011,ABK2E011,AJ6PE011,AQYIE011,black_male_35_to_44
+Black or African American Alone,Male: 45 to 54 years,JVPE012,ABK2E012,AJ6PE012,AQYIE012,black_male_45_to_54
+Black or African American Alone,Male: 55 to 64 years,JVPE013,ABK2E013,AJ6PE013,AQYIE013,black_male_55_to_64
+Black or African American Alone,Male: 65 to 74 years,JVPE014,ABK2E014,AJ6PE014,AQYIE014,black_male_65_to_74
+Black or African American Alone,Male: 75 to 84 years,JVPE015,ABK2E015,AJ6PE015,AQYIE015,black_male_75_to_84
+Black or African American Alone,Male: 85 years and over,JVPE016,ABK2E016,AJ6PE016,AQYIE016,black_male_85_plus
+Black or African American Alone,Female,JVPE017,ABK2E017,AJ6PE017,AQYIE017,black_female
+Black or African American Alone,Female: Under 5 years,JVPE018,ABK2E018,AJ6PE018,AQYIE018,black_female_under_5
+Black or African American Alone,Female: 5 to 9 years,JVPE019,ABK2E019,AJ6PE019,AQYIE019,black_female_5_to_9
+Black or African American Alone,Female: 10 to 14 years,JVPE020,ABK2E020,AJ6PE020,AQYIE020,black_female_10_to_14
+Black or African American Alone,Female: 15 to 17 years,JVPE021,ABK2E021,AJ6PE021,AQYIE021,black_female_15_to_17
+Black or African American Alone,Female: 18 and 19 years,JVPE022,ABK2E022,AJ6PE022,AQYIE022,black_female_18_and_19
+Black or African American Alone,Female: 20 to 24 years,JVPE023,ABK2E023,AJ6PE023,AQYIE023,black_female_20_to_24
+Black or African American Alone,Female: 25 to 29 years,JVPE024,ABK2E024,AJ6PE024,AQYIE024,black_female_25_to_29
+Black or African American Alone,Female: 30 to 34 years,JVPE025,ABK2E025,AJ6PE025,AQYIE025,black_female_30_to_34
+Black or African American Alone,Female: 35 to 44 years,JVPE026,ABK2E026,AJ6PE026,AQYIE026,black_female_35_to_44
+Black or African American Alone,Female: 45 to 54 years,JVPE027,ABK2E027,AJ6PE027,AQYIE027,black_female_45_to_54
+Black or African American Alone,Female: 55 to 64 years,JVPE028,ABK2E028,AJ6PE028,AQYIE028,black_female_55_to_64
+Black or African American Alone,Female: 65 to 74 years,JVPE029,ABK2E029,AJ6PE029,AQYIE029,black_female_65_to_74
+Black or African American Alone,Female: 75 to 84 years,JVPE030,ABK2E030,AJ6PE030,AQYIE030,black_female_75_to_84
+Black or African American Alone,Female: 85 years and over,JVPE031,ABK2E031,AJ6PE031,AQYIE031,black_female_85_plus
+American Indian and Alaska Native Alone,Total,JVQE001,ABK3E001,AJ6QE001,AQYJE001,aian_total
+American Indian and Alaska Native Alone,Male,JVQE002,ABK3E002,AJ6QE002,AQYJE002,aian_male
+American Indian and Alaska Native Alone,Male: Under 5 years,JVQE003,ABK3E003,AJ6QE003,AQYJE003,aian_male_under_5
+American Indian and Alaska Native Alone,Male: 5 to 9 years,JVQE004,ABK3E004,AJ6QE004,AQYJE004,aian_male_5_to_9
+American Indian and Alaska Native Alone,Male: 10 to 14 years,JVQE005,ABK3E005,AJ6QE005,AQYJE005,aian_male_10_to_14
+American Indian and Alaska Native Alone,Male: 15 to 17 years,JVQE006,ABK3E006,AJ6QE006,AQYJE006,aian_male_15_to_17
+American Indian and Alaska Native Alone,Male: 18 and 19 years,JVQE007,ABK3E007,AJ6QE007,AQYJE007,aian_male_18_and_19
+American Indian and Alaska Native Alone,Male: 20 to 24 years,JVQE008,ABK3E008,AJ6QE008,AQYJE008,aian_male_20_to_24
+American Indian and Alaska Native Alone,Male: 25 to 29 years,JVQE009,ABK3E009,AJ6QE009,AQYJE009,aian_male_25_to_29
+American Indian and Alaska Native Alone,Male: 30 to 34 years,JVQE010,ABK3E010,AJ6QE010,AQYJE010,aian_male_30_to_34
+American Indian and Alaska Native Alone,Male: 35 to 44 years,JVQE011,ABK3E011,AJ6QE011,AQYJE011,aian_male_35_to_44
+American Indian and Alaska Native Alone,Male: 45 to 54 years,JVQE012,ABK3E012,AJ6QE012,AQYJE012,aian_male_45_to_54
+American Indian and Alaska Native Alone,Male: 55 to 64 years,JVQE013,ABK3E013,AJ6QE013,AQYJE013,aian_male_55_to_64
+American Indian and Alaska Native Alone,Male: 65 to 74 years,JVQE014,ABK3E014,AJ6QE014,AQYJE014,aian_male_65_to_74
+American Indian and Alaska Native Alone,Male: 75 to 84 years,JVQE015,ABK3E015,AJ6QE015,AQYJE015,aian_male_75_to_84
+American Indian and Alaska Native Alone,Male: 85 years and over,JVQE016,ABK3E016,AJ6QE016,AQYJE016,aian_male_85_plus
+American Indian and Alaska Native Alone,Female,JVQE017,ABK3E017,AJ6QE017,AQYJE017,aian_female
+American Indian and Alaska Native Alone,Female: Under 5 years,JVQE018,ABK3E018,AJ6QE018,AQYJE018,aian_female_under_5
+American Indian and Alaska Native Alone,Female: 5 to 9 years,JVQE019,ABK3E019,AJ6QE019,AQYJE019,aian_female_5_to_9
+American Indian and Alaska Native Alone,Female: 10 to 14 years,JVQE020,ABK3E020,AJ6QE020,AQYJE020,aian_female_10_to_14
+American Indian and Alaska Native Alone,Female: 15 to 17 years,JVQE021,ABK3E021,AJ6QE021,AQYJE021,aian_female_15_to_17
+American Indian and Alaska Native Alone,Female: 18 and 19 years,JVQE022,ABK3E022,AJ6QE022,AQYJE022,aian_female_18_and_19
+American Indian and Alaska Native Alone,Female: 20 to 24 years,JVQE023,ABK3E023,AJ6QE023,AQYJE023,aian_female_20_to_24
+American Indian and Alaska Native Alone,Female: 25 to 29 years,JVQE024,ABK3E024,AJ6QE024,AQYJE024,aian_female_25_to_29
+American Indian and Alaska Native Alone,Female: 30 to 34 years,JVQE025,ABK3E025,AJ6QE025,AQYJE025,aian_female_30_to_34
+American Indian and Alaska Native Alone,Female: 35 to 44 years,JVQE026,ABK3E026,AJ6QE026,AQYJE026,aian_female_35_to_44
+American Indian and Alaska Native Alone,Female: 45 to 54 years,JVQE027,ABK3E027,AJ6QE027,AQYJE027,aian_female_45_to_54
+American Indian and Alaska Native Alone,Female: 55 to 64 years,JVQE028,ABK3E028,AJ6QE028,AQYJE028,aian_female_55_to_64
+American Indian and Alaska Native Alone,Female: 65 to 74 years,JVQE029,ABK3E029,AJ6QE029,AQYJE029,aian_female_65_to_74
+American Indian and Alaska Native Alone,Female: 75 to 84 years,JVQE030,ABK3E030,AJ6QE030,AQYJE030,aian_female_75_to_84
+American Indian and Alaska Native Alone,Female: 85 years and over,JVQE031,ABK3E031,AJ6QE031,AQYJE031,aian_female_85_plus
+Asian Alone,Total,JVRE001,ABK4E001,AJ6RE001,AQYKE001,asian_total
+Asian Alone,Male,JVRE002,ABK4E002,AJ6RE002,AQYKE002,asian_male
+Asian Alone,Male: Under 5 years,JVRE003,ABK4E003,AJ6RE003,AQYKE003,asian_male_under_5
+Asian Alone,Male: 5 to 9 years,JVRE004,ABK4E004,AJ6RE004,AQYKE004,asian_male_5_to_9
+Asian Alone,Male: 10 to 14 years,JVRE005,ABK4E005,AJ6RE005,AQYKE005,asian_male_10_to_14
+Asian Alone,Male: 15 to 17 years,JVRE006,ABK4E006,AJ6RE006,AQYKE006,asian_male_15_to_17
+Asian Alone,Male: 18 and 19 years,JVRE007,ABK4E007,AJ6RE007,AQYKE007,asian_male_18_and_19
+Asian Alone,Male: 20 to 24 years,JVRE008,ABK4E008,AJ6RE008,AQYKE008,asian_male_20_to_24
+Asian Alone,Male: 25 to 29 years,JVRE009,ABK4E009,AJ6RE009,AQYKE009,asian_male_25_to_29
+Asian Alone,Male: 30 to 34 years,JVRE010,ABK4E010,AJ6RE010,AQYKE010,asian_male_30_to_34
+Asian Alone,Male: 35 to 44 years,JVRE011,ABK4E011,AJ6RE011,AQYKE011,asian_male_35_to_44
+Asian Alone,Male: 45 to 54 years,JVRE012,ABK4E012,AJ6RE012,AQYKE012,asian_male_45_to_54
+Asian Alone,Male: 55 to 64 years,JVRE013,ABK4E013,AJ6RE013,AQYKE013,asian_male_55_to_64
+Asian Alone,Male: 65 to 74 years,JVRE014,ABK4E014,AJ6RE014,AQYKE014,asian_male_65_to_74
+Asian Alone,Male: 75 to 84 years,JVRE015,ABK4E015,AJ6RE015,AQYKE015,asian_male_75_to_84
+Asian Alone,Male: 85 years and over,JVRE016,ABK4E016,AJ6RE016,AQYKE016,asian_male_85_plus
+Asian Alone,Female,JVRE017,ABK4E017,AJ6RE017,AQYKE017,asian_female
+Asian Alone,Female: Under 5 years,JVRE018,ABK4E018,AJ6RE018,AQYKE018,asian_female_under_5
+Asian Alone,Female: 5 to 9 years,JVRE019,ABK4E019,AJ6RE019,AQYKE019,asian_female_5_to_9
+Asian Alone,Female: 10 to 14 years,JVRE020,ABK4E020,AJ6RE020,AQYKE020,asian_female_10_to_14
+Asian Alone,Female: 15 to 17 years,JVRE021,ABK4E021,AJ6RE021,AQYKE021,asian_female_15_to_17
+Asian Alone,Female: 18 and 19 years,JVRE022,ABK4E022,AJ6RE022,AQYKE022,asian_female_18_and_19
+Asian Alone,Female: 20 to 24 years,JVRE023,ABK4E023,AJ6RE023,AQYKE023,asian_female_20_to_24
+Asian Alone,Female: 25 to 29 years,JVRE024,ABK4E024,AJ6RE024,AQYKE024,asian_female_25_to_29
+Asian Alone,Female: 30 to 34 years,JVRE025,ABK4E025,AJ6RE025,AQYKE025,asian_female_30_to_34
+Asian Alone,Female: 35 to 44 years,JVRE026,ABK4E026,AJ6RE026,AQYKE026,asian_female_35_to_44
+Asian Alone,Female: 45 to 54 years,JVRE027,ABK4E027,AJ6RE027,AQYKE027,asian_female_45_to_54
+Asian Alone,Female: 55 to 64 years,JVRE028,ABK4E028,AJ6RE028,AQYKE028,asian_female_55_to_64
+Asian Alone,Female: 65 to 74 years,JVRE029,ABK4E029,AJ6RE029,AQYKE029,asian_female_65_to_74
+Asian Alone,Female: 75 to 84 years,JVRE030,ABK4E030,AJ6RE030,AQYKE030,asian_female_75_to_84
+Asian Alone,Female: 85 years and over,JVRE031,ABK4E031,AJ6RE031,AQYKE031,asian_female_85_plus
+Native Hawaiian and Other Pacific Islander Alone,Total,JVSE001,ABK5E001,AJ6SE001,AQYLE001,nhpi_total
+Native Hawaiian and Other Pacific Islander Alone,Male,JVSE002,ABK5E002,AJ6SE002,AQYLE002,nhpi_male
+Native Hawaiian and Other Pacific Islander Alone,Male: Under 5 years,JVSE003,ABK5E003,AJ6SE003,AQYLE003,nhpi_male_under_5
+Native Hawaiian and Other Pacific Islander Alone,Male: 5 to 9 years,JVSE004,ABK5E004,AJ6SE004,AQYLE004,nhpi_male_5_to_9
+Native Hawaiian and Other Pacific Islander Alone,Male: 10 to 14 years,JVSE005,ABK5E005,AJ6SE005,AQYLE005,nhpi_male_10_to_14
+Native Hawaiian and Other Pacific Islander Alone,Male: 15 to 17 years,JVSE006,ABK5E006,AJ6SE006,AQYLE006,nhpi_male_15_to_17
+Native Hawaiian and Other Pacific Islander Alone,Male: 18 and 19 years,JVSE007,ABK5E007,AJ6SE007,AQYLE007,nhpi_male_18_and_19
+Native Hawaiian and Other Pacific Islander Alone,Male: 20 to 24 years,JVSE008,ABK5E008,AJ6SE008,AQYLE008,nhpi_male_20_to_24
+Native Hawaiian and Other Pacific Islander Alone,Male: 25 to 29 years,JVSE009,ABK5E009,AJ6SE009,AQYLE009,nhpi_male_25_to_29
+Native Hawaiian and Other Pacific Islander Alone,Male: 30 to 34 years,JVSE010,ABK5E010,AJ6SE010,AQYLE010,nhpi_male_30_to_34
+Native Hawaiian and Other Pacific Islander Alone,Male: 35 to 44 years,JVSE011,ABK5E011,AJ6SE011,AQYLE011,nhpi_male_35_to_44
+Native Hawaiian and Other Pacific Islander Alone,Male: 45 to 54 years,JVSE012,ABK5E012,AJ6SE012,AQYLE012,nhpi_male_45_to_54
+Native Hawaiian and Other Pacific Islander Alone,Male: 55 to 64 years,JVSE013,ABK5E013,AJ6SE013,AQYLE013,nhpi_male_55_to_64
+Native Hawaiian and Other Pacific Islander Alone,Male: 65 to 74 years,JVSE014,ABK5E014,AJ6SE014,AQYLE014,nhpi_male_65_to_74
+Native Hawaiian and Other Pacific Islander Alone,Male: 75 to 84 years,JVSE015,ABK5E015,AJ6SE015,AQYLE015,nhpi_male_75_to_84
+Native Hawaiian and Other Pacific Islander Alone,Male: 85 years and over,JVSE016,ABK5E016,AJ6SE016,AQYLE016,nhpi_male_85_plus
+Native Hawaiian and Other Pacific Islander Alone,Female,JVSE017,ABK5E017,AJ6SE017,AQYLE017,nhpi_female
+Native Hawaiian and Other Pacific Islander Alone,Female: Under 5 years,JVSE018,ABK5E018,AJ6SE018,AQYLE018,nhpi_female_under_5
+Native Hawaiian and Other Pacific Islander Alone,Female: 5 to 9 years,JVSE019,ABK5E019,AJ6SE019,AQYLE019,nhpi_female_5_to_9
+Native Hawaiian and Other Pacific Islander Alone,Female: 10 to 14 years,JVSE020,ABK5E020,AJ6SE020,AQYLE020,nhpi_female_10_to_14
+Native Hawaiian and Other Pacific Islander Alone,Female: 15 to 17 years,JVSE021,ABK5E021,AJ6SE021,AQYLE021,nhpi_female_15_to_17
+Native Hawaiian and Other Pacific Islander Alone,Female: 18 and 19 years,JVSE022,ABK5E022,AJ6SE022,AQYLE022,nhpi_female_18_and_19
+Native Hawaiian and Other Pacific Islander Alone,Female: 20 to 24 years,JVSE023,ABK5E023,AJ6SE023,AQYLE023,nhpi_female_20_to_24
+Native Hawaiian and Other Pacific Islander Alone,Female: 25 to 29 years,JVSE024,ABK5E024,AJ6SE024,AQYLE024,nhpi_female_25_to_29
+Native Hawaiian and Other Pacific Islander Alone,Female: 30 to 34 years,JVSE025,ABK5E025,AJ6SE025,AQYLE025,nhpi_female_30_to_34
+Native Hawaiian and Other Pacific Islander Alone,Female: 35 to 44 years,JVSE026,ABK5E026,AJ6SE026,AQYLE026,nhpi_female_35_to_44
+Native Hawaiian and Other Pacific Islander Alone,Female: 45 to 54 years,JVSE027,ABK5E027,AJ6SE027,AQYLE027,nhpi_female_45_to_54
+Native Hawaiian and Other Pacific Islander Alone,Female: 55 to 64 years,JVSE028,ABK5E028,AJ6SE028,AQYLE028,nhpi_female_55_to_64
+Native Hawaiian and Other Pacific Islander Alone,Female: 65 to 74 years,JVSE029,ABK5E029,AJ6SE029,AQYLE029,nhpi_female_65_to_74
+Native Hawaiian and Other Pacific Islander Alone,Female: 75 to 84 years,JVSE030,ABK5E030,AJ6SE030,AQYLE030,nhpi_female_75_to_84
+Native Hawaiian and Other Pacific Islander Alone,Female: 85 years and over,JVSE031,ABK5E031,AJ6SE031,AQYLE031,nhpi_female_85_plus
+Some Other Race Alone,Total,JVTE001,ABK6E001,AJ6TE001,AQYME001,other_total
+Some Other Race Alone,Male,JVTE002,ABK6E002,AJ6TE002,AQYME002,other_male
+Some Other Race Alone,Male: Under 5 years,JVTE003,ABK6E003,AJ6TE003,AQYME003,other_male_under_5
+Some Other Race Alone,Male: 5 to 9 years,JVTE004,ABK6E004,AJ6TE004,AQYME004,other_male_5_to_9
+Some Other Race Alone,Male: 10 to 14 years,JVTE005,ABK6E005,AJ6TE005,AQYME005,other_male_10_to_14
+Some Other Race Alone,Male: 15 to 17 years,JVTE006,ABK6E006,AJ6TE006,AQYME006,other_male_15_to_17
+Some Other Race Alone,Male: 18 and 19 years,JVTE007,ABK6E007,AJ6TE007,AQYME007,other_male_18_and_19
+Some Other Race Alone,Male: 20 to 24 years,JVTE008,ABK6E008,AJ6TE008,AQYME008,other_male_20_to_24
+Some Other Race Alone,Male: 25 to 29 years,JVTE009,ABK6E009,AJ6TE009,AQYME009,other_male_25_to_29
+Some Other Race Alone,Male: 30 to 34 years,JVTE010,ABK6E010,AJ6TE010,AQYME010,other_male_30_to_34
+Some Other Race Alone,Male: 35 to 44 years,JVTE011,ABK6E011,AJ6TE011,AQYME011,other_male_35_to_44
+Some Other Race Alone,Male: 45 to 54 years,JVTE012,ABK6E012,AJ6TE012,AQYME012,other_male_45_to_54
+Some Other Race Alone,Male: 55 to 64 years,JVTE013,ABK6E013,AJ6TE013,AQYME013,other_male_55_to_64
+Some Other Race Alone,Male: 65 to 74 years,JVTE014,ABK6E014,AJ6TE014,AQYME014,other_male_65_to_74
+Some Other Race Alone,Male: 75 to 84 years,JVTE015,ABK6E015,AJ6TE015,AQYME015,other_male_75_to_84
+Some Other Race Alone,Male: 85 years and over,JVTE016,ABK6E016,AJ6TE016,AQYME016,other_male_85_plus
+Some Other Race Alone,Female,JVTE017,ABK6E017,AJ6TE017,AQYME017,other_female
+Some Other Race Alone,Female: Under 5 years,JVTE018,ABK6E018,AJ6TE018,AQYME018,other_female_under_5
+Some Other Race Alone,Female: 5 to 9 years,JVTE019,ABK6E019,AJ6TE019,AQYME019,other_female_5_to_9
+Some Other Race Alone,Female: 10 to 14 years,JVTE020,ABK6E020,AJ6TE020,AQYME020,other_female_10_to_14
+Some Other Race Alone,Female: 15 to 17 years,JVTE021,ABK6E021,AJ6TE021,AQYME021,other_female_15_to_17
+Some Other Race Alone,Female: 18 and 19 years,JVTE022,ABK6E022,AJ6TE022,AQYME022,other_female_18_and_19
+Some Other Race Alone,Female: 20 to 24 years,JVTE023,ABK6E023,AJ6TE023,AQYME023,other_female_20_to_24
+Some Other Race Alone,Female: 25 to 29 years,JVTE024,ABK6E024,AJ6TE024,AQYME024,other_female_25_to_29
+Some Other Race Alone,Female: 30 to 34 years,JVTE025,ABK6E025,AJ6TE025,AQYME025,other_female_30_to_34
+Some Other Race Alone,Female: 35 to 44 years,JVTE026,ABK6E026,AJ6TE026,AQYME026,other_female_35_to_44
+Some Other Race Alone,Female: 45 to 54 years,JVTE027,ABK6E027,AJ6TE027,AQYME027,other_female_45_to_54
+Some Other Race Alone,Female: 55 to 64 years,JVTE028,ABK6E028,AJ6TE028,AQYME028,other_female_55_to_64
+Some Other Race Alone,Female: 65 to 74 years,JVTE029,ABK6E029,AJ6TE029,AQYME029,other_female_65_to_74
+Some Other Race Alone,Female: 75 to 84 years,JVTE030,ABK6E030,AJ6TE030,AQYME030,other_female_75_to_84
+Some Other Race Alone,Female: 85 years and over,JVTE031,ABK6E031,AJ6TE031,AQYME031,other_female_85_plus
+Two or More Races,Total,JVUE001,ABK7E001,AJ6UE001,AQYNE001,multi_total
+Two or More Races,Male,JVUE002,ABK7E002,AJ6UE002,AQYNE002,multi_male
+Two or More Races,Male: Under 5 years,JVUE003,ABK7E003,AJ6UE003,AQYNE003,multi_male_under_5
+Two or More Races,Male: 5 to 9 years,JVUE004,ABK7E004,AJ6UE004,AQYNE004,multi_male_5_to_9
+Two or More Races,Male: 10 to 14 years,JVUE005,ABK7E005,AJ6UE005,AQYNE005,multi_male_10_to_14
+Two or More Races,Male: 15 to 17 years,JVUE006,ABK7E006,AJ6UE006,AQYNE006,multi_male_15_to_17
+Two or More Races,Male: 18 and 19 years,JVUE007,ABK7E007,AJ6UE007,AQYNE007,multi_male_18_and_19
+Two or More Races,Male: 20 to 24 years,JVUE008,ABK7E008,AJ6UE008,AQYNE008,multi_male_20_to_24
+Two or More Races,Male: 25 to 29 years,JVUE009,ABK7E009,AJ6UE009,AQYNE009,multi_male_25_to_29
+Two or More Races,Male: 30 to 34 years,JVUE010,ABK7E010,AJ6UE010,AQYNE010,multi_male_30_to_34
+Two or More Races,Male: 35 to 44 years,JVUE011,ABK7E011,AJ6UE011,AQYNE011,multi_male_35_to_44
+Two or More Races,Male: 45 to 54 years,JVUE012,ABK7E012,AJ6UE012,AQYNE012,multi_male_45_to_54
+Two or More Races,Male: 55 to 64 years,JVUE013,ABK7E013,AJ6UE013,AQYNE013,multi_male_55_to_64
+Two or More Races,Male: 65 to 74 years,JVUE014,ABK7E014,AJ6UE014,AQYNE014,multi_male_65_to_74
+Two or More Races,Male: 75 to 84 years,JVUE015,ABK7E015,AJ6UE015,AQYNE015,multi_male_75_to_84
+Two or More Races,Male: 85 years and over,JVUE016,ABK7E016,AJ6UE016,AQYNE016,multi_male_85_plus
+Two or More Races,Female,JVUE017,ABK7E017,AJ6UE017,AQYNE017,multi_female
+Two or More Races,Female: Under 5 years,JVUE018,ABK7E018,AJ6UE018,AQYNE018,multi_female_under_5
+Two or More Races,Female: 5 to 9 years,JVUE019,ABK7E019,AJ6UE019,AQYNE019,multi_female_5_to_9
+Two or More Races,Female: 10 to 14 years,JVUE020,ABK7E020,AJ6UE020,AQYNE020,multi_female_10_to_14
+Two or More Races,Female: 15 to 17 years,JVUE021,ABK7E021,AJ6UE021,AQYNE021,multi_female_15_to_17
+Two or More Races,Female: 18 and 19 years,JVUE022,ABK7E022,AJ6UE022,AQYNE022,multi_female_18_and_19
+Two or More Races,Female: 20 to 24 years,JVUE023,ABK7E023,AJ6UE023,AQYNE023,multi_female_20_to_24
+Two or More Races,Female: 25 to 29 years,JVUE024,ABK7E024,AJ6UE024,AQYNE024,multi_female_25_to_29
+Two or More Races,Female: 30 to 34 years,JVUE025,ABK7E025,AJ6UE025,AQYNE025,multi_female_30_to_34
+Two or More Races,Female: 35 to 44 years,JVUE026,ABK7E026,AJ6UE026,AQYNE026,multi_female_35_to_44
+Two or More Races,Female: 45 to 54 years,JVUE027,ABK7E027,AJ6UE027,AQYNE027,multi_female_45_to_54
+Two or More Races,Female: 55 to 64 years,JVUE028,ABK7E028,AJ6UE028,AQYNE028,multi_female_55_to_64
+Two or More Races,Female: 65 to 74 years,JVUE029,ABK7E029,AJ6UE029,AQYNE029,multi_female_65_to_74
+Two or More Races,Female: 75 to 84 years,JVUE030,ABK7E030,AJ6UE030,AQYNE030,multi_female_75_to_84
+Two or More Races,Female: 85 years and over,JVUE031,ABK7E031,AJ6UE031,AQYNE031,multi_female_85_plus

@@ -19,29 +19,6 @@ build/
 .vscode/
 *.code-workspace
 
-# Data and results
-*.csv
-*.tsv
-*.xls
-*.xlsx
-*.h5
-*.parquet
-*.pkl
-*.joblib
-*.npy
-*.npz
-*.sav
-*.sqlite
-*.db
-
-# Plots and images
-plots/
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.pdf
-
 # Environment and dependency files
 .env
 .venv/
@@ -56,13 +33,6 @@ Thumbs.db
 *.log
 *.out
 *.err
-
-# Ignore model artifacts
-*.pt
-*.pth
-*.ckpt
-*.onnx
-*.pb
 
 # Ignore temporary files
 *.tmp

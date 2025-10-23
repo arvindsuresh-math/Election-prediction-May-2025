@@ -1,0 +1,55 @@
+name,description,unit,role
+fips,Federal Information Processing Standards county code identifier,id,id
+totalvotes,Total number of votes cast in the county,persons,feature
+dem,Number of votes for Democratic candidate,persons,target
+repub,Number of votes for Republican candidate,persons,target
+other,Number of votes for other candidates,persons,target
+pop_tot,Total population of the county,persons,feature
+pop_male,Male population of the county,persons,feature
+pop_female,Female population of the county,persons,feature
+hispanic,Number of Hispanic residents in the county,persons,feature
+labor_total,Total labor force in the county,persons,feature
+labor_armed,Armed forces in the labor force,persons,feature
+labor_employed,Number of employed persons in the county,persons,feature
+labor_unemployed,Number of unemployed persons in the county,persons,feature
+income_median,Median household income in the county,dollars,feature
+income_percapita,Per capita income in the county,dollars_per_person,feature
+income_poverty,Population below poverty line,persons,feature
+native_yes,Number of native-born residents,persons,feature
+native_no,Number of foreign-born residents,persons,feature
+houses_tot,Total number of housing units,households,feature
+income_10,"Number of households with income less than $10,000",households,feature
+income_10-15,"Number of households with income $10,000-$14,999",households,feature
+income_15-25,"Number of households with income $15,000-$24,999",households,feature
+income_25,"Number of households with income $25,000 or more",households,feature
+marital_single,Number of single (never married) residents,persons,feature
+marital_married,Number of married residents,persons,feature
+marital_sepdiv,Number of separated or divorced residents,persons,feature
+marital_widow,Number of widowed residents,persons,feature
+edu_low,Number of residents with low education (less than high school),persons,feature
+edu_mid,Number of residents with medium education (high school or some college),persons,feature
+edu_high,Number of residents with high education (bachelor's degree or higher),persons,feature
+edu_low_age_18,Number of residents 18-44 with low education,persons,feature
+edu_low_age_45,Number of residents 45-64 with low education,persons,feature
+edu_low_age_65,Number of residents 65 and over with low education,persons,feature
+edu_mid_age_18,Number of residents 18-44 with medium education,persons,feature
+edu_mid_age_45,Number of residents 45-64 with medium education,persons,feature
+edu_mid_age_65,Number of residents 65 and over with medium education,persons,feature
+edu_high_age_18,Number of residents 18-44 with high education,persons,feature
+edu_high_age_45,Number of residents 45-64 with high education,persons,feature
+edu_high_age_65,Number of residents 65 and over with high education,persons,feature
+race_wht_total,Total white population,persons,feature
+race_wht_male,White male population,persons,feature
+race_wht_female,White female population,persons,feature
+race_blk_total,Total black population,persons,feature
+race_blk_male,Black male population,persons,feature
+race_blk_female,Black female population,persons,feature
+race_other_total,Total population of other races,persons,feature
+race_other_male,Male population of other races,persons,feature
+race_other_female,Female population of other races,persons,feature
+CENSUSAREA,Census area in square miles,area,feature
+pop_density,Population density (persons per square mile),persons_per_area,feature
+year,Election year,id,id
+18plus,Number of residents aged 18 and over (calculated from education data),persons,feature
+underage,Number of residents under 18 years old (calculated as total population minus 18plus),persons,feature
+nonvoter,Number of eligible voters who did not vote (calculated as 18plus minus totalvotes),persons,target
